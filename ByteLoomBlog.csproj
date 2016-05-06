@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4F19B0B-C0EF-411F-B412-E7B12290E13D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ByteLoomBlog</RootNamespace>
+    <AssemblyName>ByteLoomBlog</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="assets\css\jquery.floating-social-share.min.css" />
+    <Content Include="assets\css\jquery.mmenu.all.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\js\plugins\jekyll-search.js" />
+    <Content Include="assets\js\plugins\jquery.dlmenu.js" />
+    <Content Include="assets\js\plugins\jquery.fitvids.js" />
+    <Content Include="assets\js\plugins\jquery.floating-social-share.min.js" />
+    <Content Include="assets\js\plugins\jquery.magnific-popup.js" />
+    <Content Include="assets\js\plugins\jquery.mmenu.min.all.js" />
+    <Content Include="assets\js\plugins\respond.js" />
+    <Content Include="assets\js\scripts.min.js" />
+    <Content Include="assets\js\vendor\jquery-1.9.1.min.js" />
+    <Content Include="assets\js\vendor\modernizr-2.6.2.custom.min.js" />
+    <Content Include="assets\js\_main.js" />
+    <Content Include="categories\index.html" />
+    <Content Include="feed.xml" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="images\3953273590_704e3899d5_m.jpg" />
+    <Content Include="images\abstract-1.jpg" />
+    <Content Include="images\abstract-10.jpg" />
+    <Content Include="images\abstract-11.jpg" />
+    <Content Include="images\abstract-12.jpg" />
+    <Content Include="images\abstract-2.jpg" />
+    <Content Include="images\abstract-3.jpg" />
+    <Content Include="images\abstract-4.jpg" />
+    <Content Include="images\abstract-5.jpg" />
+    <Content Include="images\abstract-6.jpg" />
+    <Content Include="images\abstract-7.jpg" />
+    <Content Include="images\abstract-8.jpg" />
+    <Content Include="images\apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="images\apple-touch-icon-144x144-precomposed.png" />
+    <Content Include="images\apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="images\apple-touch-icon-precomposed.png" />
+    <Content Include="images\avatar.jpg" />
+    <Content Include="images\feature.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\neo-hpstr-jekyll-theme-preview.png" />
+    <Content Include="images\ps_neutral.png" />
+    <Content Include="images\triangular.png" />
+    <Content Include="images\twitter-card-summary-large-image.jpg" />
+    <Content Include="images\witewall_3.png" />
+    <Content Include="index.html" />
+    <None Include="about.md" />
+    <Content Include="posts\index.html" />
+    <Content Include="search\index.html" />
+    <Content Include="tags\index.html" />
+    <Content Include="_includes\author.html" />
+    <Content Include="_includes\browser-upgrade.html" />
+    <Content Include="_includes\disqus_comments.html" />
+    <Content Include="_includes\feed-footer.html" />
+    <Content Include="_includes\footer.html" />
+    <Content Include="_includes\head.html" />
+    <Content Include="_includes\header.html" />
+    <Content Include="_includes\icon-github.html" />
+    <Content Include="_includes\icon-github.svg" />
+    <Content Include="_includes\icon-twitter.html" />
+    <Content Include="_includes\icon-twitter.svg" />
+    <Content Include="_includes\icons.html" />
+    <Content Include="_includes\pagination.html" />
+    <Content Include="_includes\read-more.html" />
+    <Content Include="_includes\scripts.html" />
+    <Content Include="_includes\social-share.html" />
+    <Content Include="_layouts\dark-post.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\page.html" />
+    <Content Include="_layouts\post-index.html" />
+    <Content Include="_layouts\post.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.md" />
+    <Content Include="assets\css\main.scss" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="css\main.scss" />
+    <Content Include="search.json" />
+    <Content Include="_config.yml" />
+    <Content Include="_includes\gallery" />
+    <Content Include="_posts\2016-04-27-welcome-to-jekyll.markdown" />
+    <Content Include="_sass\vendor\font-awesome\font-awesome.scss" />
+    <Content Include="_sass\vendor\font-awesome\_animated.scss" />
+    <Content Include="_sass\vendor\font-awesome\_bordered-pulled.scss" />
+    <Content Include="_sass\vendor\font-awesome\_core.scss" />
+    <Content Include="_sass\vendor\font-awesome\_fixed-width.scss" />
+    <Content Include="_sass\vendor\font-awesome\_icons.scss" />
+    <Content Include="_sass\vendor\font-awesome\_larger.scss" />
+    <Content Include="_sass\vendor\font-awesome\_list.scss" />
+    <Content Include="_sass\vendor\font-awesome\_mixins.scss" />
+    <Content Include="_sass\vendor\font-awesome\_path.scss" />
+    <Content Include="_sass\vendor\font-awesome\_rotated-flipped.scss" />
+    <Content Include="_sass\vendor\font-awesome\_stacked.scss" />
+    <Content Include="_sass\vendor\font-awesome\_variables.scss" />
+    <Content Include="_sass\vendor\magnific-popup\magnific-popup.scss" />
+    <Content Include="_sass\vendor\magnific-popup\_settings.scss" />
+    <Content Include="_sass\_animations.scss" />
+    <Content Include="_sass\_base.scss" />
+    <Content Include="_sass\_coderay.scss" />
+    <Content Include="_sass\_dl-menu.scss" />
+    <Content Include="_sass\_elements.scss" />
+    <Content Include="_sass\_grid.scss" />
+    <Content Include="_sass\_layout.scss" />
+    <Content Include="_sass\_mixins.scss" />
+    <Content Include="_sass\_page.scss" />
+    <Content Include="_sass\_reset.scss" />
+    <Content Include="_sass\_rouge.scss" />
+    <Content Include="_sass\_site.scss" />
+    <Content Include="_sass\_syntax-highlighting.scss" />
+    <Content Include="_sass\_typography.scss" />
+    <Content Include="_sass\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26627</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:26627/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
