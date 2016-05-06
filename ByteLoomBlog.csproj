@@ -128,6 +128,7 @@
     <Content Include="_layouts\page.html" />
     <Content Include="_layouts\post-index.html" />
     <Content Include="_layouts\post.html" />
+    <Content Include="_posts\2016-05-07-hello-world.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.md" />
@@ -141,7 +142,6 @@
     <Content Include="search.json" />
     <Content Include="_config.yml" />
     <Content Include="_includes\gallery" />
-    <Content Include="_posts\2016-04-27-welcome-to-jekyll.markdown" />
     <Content Include="_sass\vendor\font-awesome\font-awesome.scss" />
     <Content Include="_sass\vendor\font-awesome\_animated.scss" />
     <Content Include="_sass\vendor\font-awesome\_bordered-pulled.scss" />

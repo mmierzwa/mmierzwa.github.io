@@ -1,5 +1,5 @@
-title:            'ByteL00m Blog'
-description:      'Marek Mierzwa - dev & tech stuff'
+title:            'bytel00m blog'
+description:      'Marek Mierzwa - dev & other stuff'
 # put your disqus here
 disqus_shortname: 
 reading_time:     false # if true, shows the estimated reading time for a post
@@ -20,9 +20,9 @@ menu:
     url: '/'
   - title: 'about'
     url: '/about'
-#  - title: 'Tags'
+#  - title: 'tags'
 #    url: '/tags'
-#  - title: 'Categories'
+#  - title: 'categories'
 #    url: '/categories'
 #    type: 'categories'
 #    submenu:
@@ -35,8 +35,8 @@ menu:
 owner:
   name:           Marek Mierzwa
   site:           http://www.marek-mierzwa.com
-  avatar:         images/avatar.jpg
-  bio:            "Husband, father, spiritual journeyman and in meantime a software developer"
+  avatar:         images/marekmierzwa_small.png
+  bio:            "Husband, father, spiritual journeyman and in the meantime a software developer"
   email:          contact@marek-mierzwa.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: MarekMierzwa # if no twitter in this config, the twitter follow button will be removed
@@ -60,7 +60,7 @@ background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
-google_verify:
+google_verify: z30PUM2U1-NbIf2cG0E7S7lrE_DsrPC9ZRNTIzDNJHw
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
@@ -92,12 +92,13 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: true
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: nil
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 # Octopress
 # Default extensions

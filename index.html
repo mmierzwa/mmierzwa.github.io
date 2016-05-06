@@ -1,8 +1,7 @@
 ---
 layout: post-index
-title: "ByteL00m Blog"
-description: "dev & tech stuff"
-tags: [development]
+title: "bytel00m blog"
+description: "dev & other stuff"
 comments: false
 ---
 
@@ -34,8 +33,9 @@ comments: false
   </header>
   <div class="entry-content">
     {% if post.content contains "<!-- more -->" %}
-    {{ post.content | split:"<!-- more -->" | first % }}
-    {% else %}
+      {{ post.content | split:"<!-- more -->" | first % }}
+      <div><a href="{{ site.url }}{{ post.url }}">&rarr;&nbsp;Read&nbsp;more</a></div>
+      {% else %}
       {{ post.content }}
     {% endif %}
   </div><!-- /.entry-content -->
