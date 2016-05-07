@@ -129,7 +129,7 @@
     <Content Include="_layouts\post-index.html" />
     <Content Include="_layouts\post.html" />
     <Content Include="_posts\2016-05-07-hello-world.md" />
-    <Content Include="_posts\2016-05-08-editing-jekyll-md-in-vs2015.md" />
+    <Content Include="_drafts\2016-05-08-editing-jekyll-md-in-vs2015.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.md" />
