@@ -86,19 +86,20 @@ paginate: 5
 float_share: true
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: true
+#  enable_coderay: true
 
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: nil
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+  syntax_highlighter: rogue
+#  syntax_highlighter_opts:
+#    line_numbers: nil
+#    line_numbers_start: 1
+#    tab_width: 4
+#    bold_every: 10
+#    css: class
 
 # Octopress
 # Default extensions
