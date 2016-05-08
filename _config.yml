@@ -1,8 +1,8 @@
 title:            'bytel00m blog'
 description:      'Marek Mierzwa - dev & other stuff'
 # put your disqus here
-disqus_shortname: 
-reading_time:     false # if true, shows the estimated reading time for a post
+disqus_shortname: marekmierzwa
+reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
