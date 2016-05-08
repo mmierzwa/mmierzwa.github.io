@@ -1,7 +1,7 @@
 title:            'bytel00m blog'
 description:      'Marek Mierzwa - dev & other stuff'
 # put your disqus here
-disqus_shortname: marekmierzwa
+disqus_shortname: bytel00mbloggithubpages
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             # logo visible in the topbar
