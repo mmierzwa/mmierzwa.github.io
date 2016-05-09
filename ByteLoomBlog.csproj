@@ -107,6 +107,9 @@
     <None Include="about.md" />
     <Content Include="posts\index.html" />
     <Content Include="search\index.html" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="tags\index.html" />
     <Content Include="_includes\author.html" />
     <Content Include="_includes\browser-upgrade.html" />

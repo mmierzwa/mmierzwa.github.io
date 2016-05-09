@@ -71,7 +71,6 @@ future:      true
 highlighter: rouge
 markdown:    kramdown
 gems:
-  - jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed
