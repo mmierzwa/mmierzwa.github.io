@@ -76,6 +76,7 @@
     <Content Include="assets\js\vendor\modernizr-2.6.2.custom.min.js" />
     <Content Include="assets\js\_main.js" />
     <Content Include="categories\index.html" />
+    <None Include="CNAME" />
     <Content Include="feed.xml" />
     <Content Include="Gruntfile.js" />
     <Content Include="images\3953273590_704e3899d5_m.jpg" />
