@@ -62,7 +62,7 @@ background:
 google_analytics: UA-77336188-1
 google_verify: tIKtPGZmvX3yzfBwbwKqyT-ueu3F4QUgHvLfmrOOMBo
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: DFE18A7DA629947848B0673582CE3E86
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Warsaw
