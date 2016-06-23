@@ -8,19 +8,19 @@ Recently leafing through my notebook (yeah, I'm still using old-time paper) I fo
 
 In this part I will try to answer two questions - why do people need an enterprise search systems and how complex they can be?<!-- more -->
 
-# Little piece of history
+## Little piece of history
 
 I still remember the times when most of public the pages in the Internet were registered in the web version of [yellow pages](https://en.wikipedia.org/wiki/Yellow_pages) - the [web directories](https://en.wikipedia.org/wiki/Web_directory). Until the mid-90's most of the Internet portals was maintaining such service built manually or semi-automatically. Even if the content discovery was made by a crawler the content classification and final categorization was a human domain.  
 Obviously when the number of resources in the Net was growing exponentially over the time and media other than text was becoming more and more popular the web directories were getting stale from day to day or even faster. The maintenance became a Sisyphean task.
 
 Internet search engines are the response for the explosion of information on the web. They can discover and retrieve the information automatically and serve it in a way that no manually-built directory can - extremely fast, with enormous throughput and in intelligent way. While content retrieval and discovery seems to be obvious the efficiency of serving mechanism in comparison to web directories requires some explanation here. Having such a huge content database a simple key word matching or category browsing with sorting by date (or other attribute) is usually very time consuming and ineffective. With the search adjusted to the natural language and sorting results by relevance this task becomes manageable and convenient.
 
-# What's the difference?
+## What's the difference?
 
 But how does it apply to the enterprise search? Internet search providers such as Google, Yahoo! or Bing deal with exabytes (1 exabyte = 10^18 byte) of publicly available content, mostly unstructured. Enterprise search systems are typically implemented in companies or other organizations of various size. They usually deal with much smaller amount of data (still too much for manually maintained databases). The most important differences are not in the amount but in it's nature: the data describes specific domains, it's usually structured or at least provided with some meaningful meta-data, in many cases it's not public (secure content).  
 Another dimension of those systems is the source (or rather sources) and format of data - not only pages available on the web but also records from relational and non-relational databases, file shares, spreadsheets, other systems integrated with web services etc. Enterprise search in larger organizations typically allows for searching heterogeneous data.
 
-# Concrete stuff
+## Concrete stuff
 
 I will give two examples to picture how wide this area is and how many thing should be considered before implementing enterprise search in an organization.
 
@@ -33,7 +33,7 @@ Other problem to solve is how to get the required data from sources and keep the
 
 I know that those examples definitely does not exhaust the list of possible applications but they rises some topics that I would like to continue in next posts. They are also cases from my professional life so they are not just some abstract concept.
 
-# Wrapping up
+## Wrapping up
 
 I hope this post gave you some overview of the subject of enterprise search and maybe even some inspiration. Next one will be more technical - I will introduce more architectural conteps and describe the base building blocks of enterprise search systems.
 
