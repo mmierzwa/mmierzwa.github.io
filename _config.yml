@@ -1,14 +1,14 @@
 title:            'bytel00m blog'
 description:      'Marek Mierzwa - dev & other stuff'
 # put your disqus here
-disqus_shortname: 
-reading_time:     false # if true, shows the estimated reading time for a post
+disqus_shortname: bytel00mbloggithubpages
+reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: #//mmierzwa.github.io
+url: http://byteloom.marek-mierzwa.com
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -60,9 +60,9 @@ background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-77336188-1
-google_verify: z30PUM2U1-NbIf2cG0E7S7lrE_DsrPC9ZRNTIzDNJHw
+google_verify: tIKtPGZmvX3yzfBwbwKqyT-ueu3F4QUgHvLfmrOOMBo
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: DFE18A7DA629947848B0673582CE3E86
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Warsaw
@@ -71,7 +71,6 @@ future:      true
 highlighter: rouge
 markdown:    kramdown
 gems:
-  - jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed
@@ -86,19 +85,20 @@ paginate: 5
 float_share: true
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: true
+#  enable_coderay: true
 
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: nil
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+  syntax_highlighter: rogue
+#  syntax_highlighter_opts:
+#    line_numbers: nil
+#    line_numbers_start: 1
+#    tab_width: 4
+#    bold_every: 10
+#    css: class
 
 # Octopress
 # Default extensions

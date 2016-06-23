@@ -76,6 +76,7 @@
     <Content Include="assets\js\vendor\modernizr-2.6.2.custom.min.js" />
     <Content Include="assets\js\_main.js" />
     <Content Include="categories\index.html" />
+    <None Include="CNAME" />
     <Content Include="feed.xml" />
     <Content Include="Gruntfile.js" />
     <Content Include="images\3953273590_704e3899d5_m.jpg" />
@@ -106,6 +107,9 @@
     <None Include="about.md" />
     <Content Include="posts\index.html" />
     <Content Include="search\index.html" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="tags\index.html" />
     <Content Include="_includes\author.html" />
     <Content Include="_includes\browser-upgrade.html" />
@@ -176,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+    <Folder Include="_drafts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
