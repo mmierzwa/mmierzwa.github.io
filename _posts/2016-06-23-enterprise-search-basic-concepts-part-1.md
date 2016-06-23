@@ -4,7 +4,7 @@ title: Enterprise search - the first look
 date: 2016-06-23 18:00:00 +0200
 tags: [enterprise search, search]
 ---
-Recently leafing through my notebook (yeah, I'm still using old-time paper) I found some ideas, quick-notes, self-brainstorming diagrams related with search systems. An original idea for this blog, at least for few first posts, was to present them. Still this requires introducing some of the basics of enterprise search and search systems in general (so I could spare some time in future just referring to those). This is what this post series is about. 
+Recently leafing through my notebook (yeah, I'm still using old-time paper) I found some ideas, quick-notes, self-brainstorming diagrams related with search systems. An original idea for this blog, at least for few first posts, was to present them. Still this requires introducing some of the basics of enterprise search and search systems in general (so I could spare some time in future just referring to those). This is what this post series is about.  
 
 In this part I will try to answer two questions - why do people need an enterprise search systems and how complex they can be?<!-- more -->
 
