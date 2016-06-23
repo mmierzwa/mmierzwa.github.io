@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Enterprise search - the first look
 date: 2016-06-23 18:00:00 +0200
