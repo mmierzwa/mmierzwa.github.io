@@ -145,7 +145,7 @@ The proper permanent fix for such errors was obviously upgrading the compiler ve
 
 ## Wrapping up
 
-It was not obvious at the first look that CA warning could have something to do with compiler version. As you can see sometimes you must just go deeper into the rabbit hole to understand what is really happening with your code. And this is not only about coding. I think about the entire process from writing it to running on production. This might not be a straightforward but I personally find a joy in solving the lower-level issues from time to time. I hope that it was interesting for you also or at least somehow inspiring ;-)
+It was not obvious at the first look that CA warning could have something to do with compiler version. As you can see sometimes you must just go deeper into the rabbit hole to understand what is really happening with your code. And this is not only about coding. I think about the entire process from writing it to running on production. This might not be straightforward but I personally find a joy in solving the lower-level issues from time to time. I hope that it was interesting for you as well or at least somehow inspiring ;-)
 
 Cheers! 
 Marek
