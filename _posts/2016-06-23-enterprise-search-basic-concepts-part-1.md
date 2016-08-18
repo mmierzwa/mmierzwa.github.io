@@ -35,7 +35,7 @@ I know that those examples definitely does not exhaust the list of possible appl
 
 ## Wrapping up
 
-I hope this post gave you some overview of the subject of enterprise search and maybe even some inspiration. Next one will be more technical - I will introduce more architectural conteps and describe the base building blocks of enterprise search systems.
+I hope this post gave you some overview of the subject of enterprise search and maybe even some inspiration. Next one will be more technical - I will introduce more architectural concepts and describe the base building blocks of enterprise search systems.
 
 Cheers!  
 Marek
