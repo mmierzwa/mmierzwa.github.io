@@ -9,7 +9,7 @@ Working with mobile can be quite challenging for a developer with a web dev back
 
 An example for this kind of issues I faced recently is lack explicit padding for `UILabel` (and not only). You can either let the label to fit tightly around the text content or set the label's size (either statically or with auto-sizing).
 
-There are few solutions for this around the Internet (like [this](http://stackoverflow.com/a/17557490/619799) or [this](https://forums.xamarin.com/discussion/comment/190767/#Comment_190767)). Most of them are implemented in Swift/Obj-C, some are somehow incomplete even if provided with Xamarin code. Here is a short compilation of my findings.
+There are few solutions for this around the Internet (like [this](http://stackoverflow.com/a/17557490/619799) or [this](https://forums.xamarin.com/discussion/comment/190767/#Comment_190767)). Most of them are implemented in Swift/Obj-C, some are somehow incomplete even if provided with Xamarin code. Here is a short compilation of my findings.<!-- more -->
 
 The steps are easy:
 
