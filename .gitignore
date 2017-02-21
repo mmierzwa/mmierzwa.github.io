@@ -6,3 +6,4 @@ _site
 *.suo
 *.config
 /obj/Debug
+.DS_Store
