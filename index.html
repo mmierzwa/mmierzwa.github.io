@@ -34,8 +34,13 @@ sitemap:
     {% endif %}
   </header>
   <div class="entry-content">
+    {% if post.blogger_id %}
+        <p class="warning">
+          This post <a href="{{ post.blogger_orig_url }}" target="_blank">was originaly published</a> on my <a href="http://byteloom.blogspot.com" target="_blank">previous blog</a> and moved here. Some links and resources might not be up to date.
+        </p>
+    {% endif %}
     {% if post.content contains "<!-- more -->" %}
-      {{ post.content | split:"<!-- more -->" | first % }}
+      {{ post.content | split:"<!-- more -->" | first }}
       <div><a href="{{ site.url }}{{ post.url }}">&rarr;&nbsp;Read&nbsp;more</a></div>
       {% else %}
       {{ post.content }}

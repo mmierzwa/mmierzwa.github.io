@@ -48,6 +48,10 @@
 		display: inline;
 	}
 }
+.warning {
+	padding: 4px 8px;
+	@include rounded(3px);
+}
 
 // Global Transition
 // ---------------------------------------------------

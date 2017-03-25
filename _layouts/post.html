@@ -22,6 +22,12 @@
             </div>
         {% endif %}
       <h1 class="post-title entry-title">{{ page.title }}</h1>
+      {% if page.blogger_id %}
+          <p class="warning">
+            This post <a href="{{ page.blogger_orig_url }}" target="_blank">was originaly published</a> on my <a href="http://byteloom.blogspot.com" target="_blank">previous blog</a> and moved here. Some links and resources might not be up to date.
+          </p>
+      {% endif %}
+
       {{ content }}
       <footer class="entry-meta">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>

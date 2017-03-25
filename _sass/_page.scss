@@ -14,6 +14,9 @@ body {
 	h1, h2, h3, h4, h5, h6, p, li {
 		word-wrap: break-word;
 	}
+	.warning {
+		background-color: rgba(250,240,230,0.8);
+	}
 }
 .hentry-dark {
 	background-color: $header-color;
@@ -135,6 +138,18 @@ header .entry-meta {
 }
 #post,
 #page {
+	.warning {
+		background-color: $warning;
+		color: $white;
+		a {
+			color: #f8f8ff;
+			border-bottom: 1px dotted rgba(255,255,255,0.8);
+		}
+		a:visited {
+			color: #f8f8ff;
+			border-bottom: 1px dotted rgba(248,248,255,0.8);
+		}
+	}
 	.entry-content {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
