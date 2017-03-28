@@ -7,3 +7,5 @@ _site
 *.config
 /obj/Debug
 .DS_Store
+node_modules
+npm-debug.log
