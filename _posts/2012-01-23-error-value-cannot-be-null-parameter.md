@@ -35,7 +35,6 @@ I've checked that `SPList.Forms` collection returns valid forms/pages objects on
 
 For every other it throws arg null exception as described above. This looks definitely like a bad design in Sharepoint API (one of many...) - the collection should be indexed with other enum that contain valid set of values.
 
-You can find some more detailed info about the reason of this strange behavior on the short [stackoverflow thread](http://stackoverflow.com/questions/8837172/error-value-cannot-be-null-parameter-name-formtype-retrieving-default-view) started by my question. How Stefan figured out that error is caused by enum to string conversion? I guess this mystery was revealed with [ILSpy](http://wiki.sharpdevelop.net/ILSpy.ashx) or some similar tool ;-)
+You can find some more detailed info about the reason of this strange behavior on the short [StackOverflow thread](http://stackoverflow.com/questions/8837172/error-value-cannot-be-null-parameter-name-formtype-retrieving-default-view) started by my question. How Stefan figured out that error is caused by enum to string conversion? I guess this mystery was revealed with [ILSpy](http://wiki.sharpdevelop.net/ILSpy.ashx) or some similar tool ;-)
 
-Cheers!  
-Marek
+Cheers!
