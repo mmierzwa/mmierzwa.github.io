@@ -1,25 +1,27 @@
 {
-  "name": "hpstr-theme",
+  "name": "byteloom-blog",
   "author": "Aron Bordin <aron.bordin@gmail.com>",
   "homepage": "",
   "repository": {
     "type": "git",
     "url": ""
   },
-  "bugs": {
-    "url": ""
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-githooks": "^0.3.1",
-    "grunt-svgmin": "~0.2.0"
-  }
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.2.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-githooks": "^0.6.0",
+    "grunt-svgmin": "^4.0.0"
+  },
+  "version": "1.0.0",
+  "description": "Marek Mierzwa developers blog",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
