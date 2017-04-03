@@ -85,4 +85,4 @@ if (!string.IsNullOrEmpty(newFileName))
 
 The VS solution with code samples for this article is available on [GitHub](https://github.com/mmierzwa/byteloom-codesamples/tree/master/ReplaceAttachement/)
 
-Happy sharepointing!
+Happy SharePointing!

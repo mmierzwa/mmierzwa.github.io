@@ -71,4 +71,4 @@ In my opinion Metalogix StoragePoint is a very advanced EBS/RBR solution with ri
 
 I know that this description is very brief but It's rather an general overview on product capabilities from developers perspective than exhaustive article.  
 
-Happy sharepointing!
+Happy SharePointing!
