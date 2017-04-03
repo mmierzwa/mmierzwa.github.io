@@ -2,7 +2,8 @@
 layout: post
 title: Why does MVVMCross view model initialize twice on iOS?
 date: 2017-03-11 18:00:00 +0200
-tags: [xamarin, mvvmcross, ios, mobile]
+tags: [xamarin, mvvmcross, ios]
+categories: [mobile]
 ---
 
 Working on a bug fix in MVVMCross-based mobile application I noticed a strange behavior. The navigation to other view model I put in `async Init<TInit>(TInit parameters)` which as executed on the first view model in my app was running twice. After a short debugging session it turned out that `MvxViewModel<TInit>` `Init()` is called from the view controllers `ViewDidLoad()` method. Obviously there was something I was missing in terms of `ViewDidLoad()` semantics.<!-- more -->

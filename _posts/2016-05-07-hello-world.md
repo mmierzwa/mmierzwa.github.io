@@ -2,7 +2,7 @@
 layout: post
 title: Hello World! Again...
 date: 2016-05-07 18:00:00 +0200
-tags: [miscellanea]
+tags: [blog]
 ---
 So, here it is - my second technical blog. The [first one](http://byteloom.blogspot.com/) died along with my frustration on SharePoint 2010 I had to work with some time ago... The resignation burned out and so my willingness to describe my miserable experiences with this hopeless (at least from dev perspective) technology. It was not the best reason for sharing anything with the world.
 
@@ -14,5 +14,7 @@ Third reason is that I simply enjoy playing with new toys. In this case it's a s
 
 I really hope you enjoy the reading of next posts but if you don't I will probably keep writing.
 
-Cheers! 
+Cheers!
 Marek
+
+Update: In April 2017 I moved all the content from [Blogspot](http://byteloom.blogspot.com) here (just for sake of consistency ;-) )

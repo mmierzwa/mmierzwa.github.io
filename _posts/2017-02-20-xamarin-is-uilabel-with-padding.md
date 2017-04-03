@@ -2,7 +2,8 @@
 layout: post
 title: How to add padding to UILabel in Xamain.iOS
 date: 2017-02-20 18:00:00 +0200
-tags: [xamarin, ios, mobile]
+tags: [xamarin, ios]
+categories: [mobile]
 ---
 
 Working with mobile can be quite challenging for a developer with a web dev background. At least that is my experience so far. Comparing to typical HTML web elements with CSS styling some features might be missing.
@@ -25,5 +26,5 @@ Here is the ready example:
 public class UiExtraPaddingLabel : UILabel{    private readonly UIEdgeInsets _edgeInsets;    public UiExtraPaddingLabel(nfloat padding)        : this(padding, padding, padding, padding)    {    }    public UiExtraPaddingLabel(nfloat top, nfloat left, nfloat bottom, nfloat right)    {        _edgeInsets = new UIEdgeInsets(top, left, bottom, right);    }    public override void DrawText(CGRect rect)    {        base.DrawText(_edgeInsets.InsetRect(rect));    }    public override CGSize IntrinsicContentSize    {        get        {            var originalSize = base.IntrinsicContentSize;            originalSize.Width += _edgeInsets.Left + _edgeInsets.Right;            originalSize.Height += _edgeInsets.Top + _edgeInsets.Bottom;            return originalSize;        }    }}
 ```
 
-Cheers! 
+Cheers!
 Marek

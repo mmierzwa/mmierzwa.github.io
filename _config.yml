@@ -20,16 +20,15 @@ menu:
     url: '/'
   - title: 'about'
     url: '/about'
-#  - title: 'tags'
-#    url: '/tags'
+  - title: 'tags'
+    url: '/tags'
 #  - title: 'categories'
 #    url: '/categories'
 #    type: 'categories'
 #    submenu:
-#      - title: 'Code Highlighter'
-#        url: '/intro/code-highlighting-post/'
-#      - title: 'Sample Post'
-#        url: '/intro/sample-post/'
+#      - title: 'mobile'
+#      - title: 'developers life'
+#      - title: 'enterprise search'
 
 # Owner/author information
 owner:

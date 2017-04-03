@@ -2,7 +2,8 @@
 layout: post
 title: Why ADAL does not persist user credentials on iOS simulator?
 date: 2017-03-11 18:00:00 +0200
-tags: [xamarin, ios, mobile]
+tags: [xamarin, ios]
+categories: [mobile]
 ---
 
 If you are using Azure Active Directory services you probably at least considered using [ADAL](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) as a client library in you application. It's easy to setup, use and it offers a unified API across the most popular platforms - iOS, Android, UWP, web - both .Net and native. Unfortunately sometimes things just does not work out of the box without deeper understanding how some features are implemented. This post is about one of them - credentials cache persistency on iOS.<!-- more -->
