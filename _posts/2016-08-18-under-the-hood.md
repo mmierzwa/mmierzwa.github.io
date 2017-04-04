@@ -3,7 +3,7 @@ layout: post
 title: Under the hood
 date: 2016-08-18 18:00:00 +0200
 tags: [.net, csharp, roslyn, il]
-categories: [developers life]
+categories: [developer story]
 ---
 
 It's always good to have static code analysis in your build process. I guess no one these days argues with this statement. This usually forces developer to make conscious decisions on code-level performance, reliability, security, design etc. Few times CA warnings saved me from producing a quite nasty bugs. Sometimes however FxCop yields some really strange stuff.  
