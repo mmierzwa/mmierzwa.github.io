@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AAPT: Unknown option '--no-version-vectors'"
-date: 2017-04-04 22:56 +0100
+date: 2017-04-04 22:56:00 +0200
 tags: [xamarin, android]
 categories: [mobile, developer story]
 ---
