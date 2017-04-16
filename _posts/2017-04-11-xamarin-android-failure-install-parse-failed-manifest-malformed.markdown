@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Xamarin.Android - Failure INSTALL_PARSE_FAILED_MANIFEST_MALFORMED
-date: '2017-04-11 19:25'
-tags:
-  - xamarin
-  - android
-categories:
-  - mobile
+date: 2017-04-11 19:25 +0200
+tags: [xamarin, android]
+categories: [mobile]
 ---
 
 An error `Failure INSTALL_PARSE_FAILED_MANIFEST_MALFORMED` appears from [time to time](http://stackoverflow.com/questions/37066617/failure-install-parse-failed-manifest-malformed) in world of Android Java developers. However among Xamarin devs it seems to appear much rarely. Today I came across one and the standard Android solution did not work for me. Curious about the solution I found ([with a little help of my friends](https://www.youtube.com/watch?v=nCrlyX6XbTU))?<!-- more -->
