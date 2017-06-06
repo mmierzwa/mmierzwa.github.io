@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "How to setup Ninject as the default DI container in MvvmCross?"
-date: "2017-05-07 22:40"
+date: "2017-05-07 22:40 +0100"
 original_url: https://solidbrain.com/2017/04/24/how-to-setup-ninject-as-the-default-di-container-in-mvvmcross/
 source_page_url:
 source_page_name: "Solidbrain Blog"
