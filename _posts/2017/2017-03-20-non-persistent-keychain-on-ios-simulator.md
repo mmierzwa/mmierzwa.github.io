@@ -27,5 +27,7 @@ The solution is fairly simple. In your iOS project settings, `iOS Bundle Signing
 	<figcaption>Xamarin Studio project settings - iOS Bundle Signing</figcaption>
 </figure>
 
+If you installed the unsigned package on the simulator before setting this up remember to uninstall it explicitly. Then install the signed package. Simple update from IDE won't work in this case. Thankfully this is a one time operation.
+
 Happy coding!  
 Marek
