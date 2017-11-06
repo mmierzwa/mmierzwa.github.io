@@ -128,6 +128,6 @@ public void SetupResponse(HttpStatusCode statusCode,
 }
 ```
 
-Remember to set the `MemoryStream.Position` property to the start of the buffer. Otherwise you will get exactly the same error as before but for the different reason.
+Remember to set the `MemoryStream.Position` property to the start of the buffer. Otherwise you will get exactly the same error as before but for a different reason.
 
 Happy coding!

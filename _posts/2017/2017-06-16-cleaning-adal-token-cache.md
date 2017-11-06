@@ -17,11 +17,11 @@ First one is to define a common abstraction that can be referenced in PCL:
 
 <script src="https://gist.github.com/mmierzwa/08d60d39692557d9f939d8cec365bd8b.js"></script>
 
-Next is the implementation of Android provider. On this platform [ADAL stores](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/src/ADAL.PCL.Android/TokenCachePlugin.cs) tokens in [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences.html) under specific name and key. With this knowledge the implementation is straightforward:
+Next is the implementation of Android provider. On this platform [ADAL stores](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/src/Microsoft.IdentityModel.Clients.ActiveDirectory/Platforms/android/TokenCachePlugin.cs) tokens in [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences.html) under specific name and key. With this knowledge the implementation is straightforward:
 
 <script src="https://gist.github.com/mmierzwa/3692b6cc9d7a26c167e661879e61786a.js"></script>
 
-iOS implementation is quite similar. It uses the [KeyChain](https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/02concepts/concepts.html#//apple_ref/doc/uid/TP30000897-CH204-SW8) for the [same purpose](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/src/ADAL.PCL.iOS/TokenCachePlugin.cs) and the removal is pretty simple:
+iOS implementation is quite similar. It uses the [KeyChain](https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/02concepts/concepts.html#//apple_ref/doc/uid/TP30000897-CH204-SW8) for the [same purpose](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/blob/dev/src/Microsoft.IdentityModel.Clients.ActiveDirectory/Platforms/iOS/TokenCachePlugin.cs) and the removal is pretty simple:
 
 <script src="https://gist.github.com/mmierzwa/3a2057b6a8c906d836c347960796b8b4.js"></script>
 
