@@ -32,7 +32,7 @@ Not very informative stack trace as you see... First, this happens during the co
 
 ## Remember about default label conversions
 
-As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"]({{ site.baseurl }}{% post_url 2012-09-20-sharepoint-taxonomies-labels-with %}), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
+As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"]({{ site.baseurl }}{% post_url 2012/2012-09-20-sharepoint-taxonomies-labels-with %}), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
 
 The result of above is that label `" black duck & goose "` and `"black duck ＆ goose"` will be treated as the same label string.  
 
@@ -67,7 +67,7 @@ termStore.CommitAll();
 If you think this code will run without any problem you are wrong. As I did.  
 You must ensure the label uniqueness between sibling nodes in the time when they are created. Of course this fact is not documented in API on MSDN...  
 
-As some used to say - there is a thin line between bug and feature ;-) 
+As some used to say - there is a thin line between bug and feature ;-)
 
 ## How to hunt the vampire down?
 
