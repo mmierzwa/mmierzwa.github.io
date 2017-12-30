@@ -1,1 +1,23 @@
+<span><a href="/cookies">Cookies Policy</a></span> | 
 <span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://github.com/aron-bordin/neo-hpstr-jekyll-theme" rel="nofollow">Neo-HPSTR Theme</a>.</span>
+
+<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css" />
+<script src="assets/js/vendor/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "position": "bottom-left",
+  "content": {
+    "href": "/cookies"
+  }
+})});
+</script>
