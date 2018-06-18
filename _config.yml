@@ -8,8 +8,8 @@ logo:             # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://byteloom.marek-mierzwa.com
-feed_url: http://feeds.feedburner.com/Bytel00mBlog
+url: https://byteloom.marek-mierzwa.com
+feed_url: https://feeds.feedburner.com/Bytel00mBlog
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -34,7 +34,7 @@ menu:
 # Owner/author information
 owner:
   name:           Marek Mierzwa
-  site:           http://www.marek-mierzwa.com
+  site:           https://www.marek-mierzwa.com
   avatar:         images/marekmierzwa_small.png
   bio:            "Husband, father, spiritual journeyman and in the meantime a software developer"
   email:          contact@marek-mierzwa.com
