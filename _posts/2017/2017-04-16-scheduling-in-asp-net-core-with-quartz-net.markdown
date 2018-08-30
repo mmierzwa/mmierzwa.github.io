@@ -139,6 +139,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
     // here you might want to include other config like logging
     // and fetch the schedule interval probably from configuration
 
+    var scheduler = app.ApplicationServices.GetService<IScheduler>();
     QuartzServicesUtilities.StartJob<SomeJob>(scheduler, someInterval);
 }
 ```
