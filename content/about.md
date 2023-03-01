@@ -1,11 +1,29 @@
 ---
-layout: page
 title: "about me"
-permalink: /about/index.html
+showDate: false
+showReadingTime: false
+showComments: false
+showSummary: false
+sharingLinks: false
 ---
-<img class="author-img about-me-img" src="/images/marekmierzwa_small.png" alt="Marek Mierzwa">
 
-My name is Marek Mierzwa. I'm a husband, father, spiritual journeyman, and in meantime a software developer. Speaking of the last one I spent most of the time coding in mobile, back-ends,
-working with enterprise search systems and in general - designing and implementing distributed architectures.
+Hi! My name is Marek Mierzwa. Who I am?
 
-I'm a typical lazy programmer and [don't like to repeat my self](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) so if you want to read more about my professional life take a look at [my LinkedIn profile]({{site.social.linkedin}}) or (the better way) just read this blog. Have a nice reading.
+* First and foremost - a human being 😊 A humanist, I guess 🤔
+* A proud husband and father of two wonderful children. And a dog caretaker 🐾
+* A software engineer & leader that helps product and technology teams to succeed.
+
+Beside of that, I love good food, enjoy the world and people 🥰 I like traveling and exploring (physically, mentally, spiritually), learning and trying new stuff.
+
+My hobbies? DIY projects (various types), electronics, astronomy/astronautics, coding (not only for living), tabletop RPGs, retro computing, puzzles, psychology, Lego and much more than I can think of right now. Some of those topics will show on this blog for sure.
+
+If you want to read more on my professional info, [my LinkedIn profile](https://www.linkedin.com/in/marekmierzwa/) is the place to go. 
+
+```text
+-----BEGIN GEEK CODE BLOCK VERSION 5.1-----
+GCS^/GE^ A+ B-:_:_:_:-- Cx(-) D+:-- CM++ MW++ UL++ MC+ 
+Lbash/LC#+/Lgo+/Ljs/Lpy/Lsql/Lwps IO+:_ PGP G:mmierzwa 
+E+ H+ PS+ PE++ TFF+/Tmon++/TRM++/TSG+/TST+++ RPG+(_) 
+BK++ K++
+-----END GEEK CODE BLOCK VERSION 5.1-----
+```

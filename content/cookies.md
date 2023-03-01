@@ -1,7 +1,10 @@
 ---
-layout: page
-title: "Cookies Policy"
-permalink: /cookies/index.html
+title: "cookies policy"
+showDate: false
+showReadingTime: false
+showComments: false
+showSummary: false
+sharingLinks: false
 ---
 ## What Are Cookies
 

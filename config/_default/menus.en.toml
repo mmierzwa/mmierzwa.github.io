@@ -11,19 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "blog"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
-  name = "Tags"
+  name = "tags"
   pageRef = "tags"
   weight = 30
+
+[[main]]
+  name = "about me"
+  pageRef = "about"
+  weight = 40
 
 [[main]]
   identifier = "search"
@@ -35,7 +35,12 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "cookies policy"
+  pageRef = "cookies"
+  weight = 10
+
+[[footer]]
+  name = "rss"
+  url = "https://feeds.feedburner.com/Bytel00mBlog"
+  weight = 99
