@@ -21,3 +21,5 @@ Here is the presentation description from NDC2011 agenda:
 The presentation title speaks for itself. It looks really hardcore - watching this guy with WinDBG and other debugging tools from MS in action for the first time impressed me a lot. I recommend this to all .Net developers. No matter if you write web/desktop applications or system services you will find many advices that could save hours of your work, nerves and - priceless - the trust of your clients.  
 
 You can watch the presentation on-line directly on NDC2011 page [here](http://ndc2011.macsimum.no/mp4/Day2%20Thursday/Track7%200900-1000.mp4).
+
+{{< blogspot_ref >}}

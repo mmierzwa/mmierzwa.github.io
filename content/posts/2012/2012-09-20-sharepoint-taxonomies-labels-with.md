@@ -88,3 +88,5 @@ This works fine either in web interface and other clients (I've tested it with M
 </figure>
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}

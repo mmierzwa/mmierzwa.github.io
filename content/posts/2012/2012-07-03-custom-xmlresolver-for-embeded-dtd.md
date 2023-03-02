@@ -99,3 +99,5 @@ using (var reader = XmlReader.Create(xmlFileStream, readerSettings))
 I can easily imagine other implementations of `XmlResolver` - for example to provide external resources from the web services (of course if someone see any sense in creating such thing ;-)
 
 Happy coding!
+
+{{< blogspot_ref >}}

@@ -197,3 +197,5 @@ The VS solution with code samples for this article is available on [GitHub](http
 I hope this short article will spare your time.
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}

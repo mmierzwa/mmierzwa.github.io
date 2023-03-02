@@ -106,3 +106,5 @@ Unfortunately this won't help if you change the label after creation like mentio
 I hope this little guideline will save you some time.
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}

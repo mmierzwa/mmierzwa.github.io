@@ -39,3 +39,5 @@ For every other it throws arg null exception as described above. This looks defi
 You can find some more detailed info about the reason of this strange behavior on the short [StackOverflow thread](http://stackoverflow.com/questions/8837172/error-value-cannot-be-null-parameter-name-formtype-retrieving-default-view) started by my question. How Stefan figured out that error is caused by enum to string conversion? I guess this mystery was revealed with [ILSpy](http://wiki.sharpdevelop.net/ILSpy.ashx) or some similar tool ;-)
 
 Cheers!
+
+{{< blogspot_ref >}}

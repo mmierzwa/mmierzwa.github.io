@@ -12,13 +12,13 @@ copyright = "Copy, _right?_ :thinking_face:"
 dateFormat = "2 January 2006"
 
 [params]
-  # mainSections = ["section1", "section2"]
+#  mainSections = ["section1", "section2"]
 
 [author]
   name = "Marek Mierzwa"
   image = "/images/marekmierzwa_small.png"
-  headline = "software & other stuff"
-#  bio = "A little bit about you"
+  headline = "a human being and occasionally a software engineer"
+  bio = "a human being and occasionally a software engineer"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

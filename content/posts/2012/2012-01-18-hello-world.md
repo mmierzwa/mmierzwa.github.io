@@ -9,3 +9,5 @@ title: Hello world!
 
 Welcome on my new blog (and also the first one).  
 In few days I plan to picture some of my first experiences with development in SharePoint 2010. They are related with my current project - custom upload form with [Telerik upload control](http://www.telerik.com/help/silverlight/radupload-overview.html) (Silverlight) that will entirely replace the standard OOB upload mechanism for custom document libraries.
+
+{{< blogspot_ref >}}

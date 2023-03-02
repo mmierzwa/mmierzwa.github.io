@@ -216,3 +216,5 @@ The values that must be increased are `sendTimeout` for proper bindings (line 21
 Please note that both settings - maximum request length for all SP web services and WCF settings for MMD service - are server wide and will affect the whole machine (or farm in load balanced environment, since you will probably have to provide the same configuration on all web service machines). This may not be an acceptable solution on many production configurations especially in public networks (due to possible DoS threat) - I'm not sure how this affects other client APIs (like JS). This is rather a workaround.  
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}

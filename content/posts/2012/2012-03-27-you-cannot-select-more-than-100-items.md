@@ -82,3 +82,5 @@ $(document).ready(function() {
 There is one other issue I should mention. Limit of 100 items has been set for some reason - probably the performance. I've managed to update value of a column for 200 items with [BatchEdit from codeplex](http://sp2010batchedit.codeplex.com) but checking-in the same number of items failed (I've got some strange JS error). Still I was able to check-in 110 items which was above the standard limit.  
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}

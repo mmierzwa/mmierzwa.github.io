@@ -147,3 +147,5 @@ This sounds very interesting and I think I'll investigate this in future.
 </figure>
 
 Have a nice profiling with WebPageTest!
+
+{{< blogspot_ref >}}

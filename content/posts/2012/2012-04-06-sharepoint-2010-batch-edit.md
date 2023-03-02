@@ -44,3 +44,5 @@ I have noticed also a few minor issues using the Batch Edit, mostly in usability
 PS: If you faced with the problem of updating more than 100 items at once, read my previous post - ["You cannot select more than 100 items at once" in SharePoint 2010]({{ site.baseurl }}{% post_url 2012/2012-03-27-you-cannot-select-more-than-100-items %}).  
 
 Happy SharePointing!
+
+{{< blogspot_ref >}}
