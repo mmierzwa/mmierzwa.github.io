@@ -12,7 +12,7 @@ Working with mobile can be quite challenging for a developer with a web dev back
 
 An example for this kind of issues I faced recently is lack explicit padding for `UILabel` (and not only). You can either let the label to fit tightly around the text content or set the label's size (either statically or with auto-sizing).
 
-There are few solutions for this around the Internet (like [this](http://stackoverflow.com/a/17557490/619799) or [this](https://forums.xamarin.com/discussion/comment/190767/#Comment_190767)). Most of them are implemented in Swift/Obj-C, some are somehow incomplete even if provided with Xamarin code. Here is a short compilation of my findings.<!--more-->
+There are few solutions for this around the Internet (like [this](http://stackoverflow.com/a/17557490/619799) or [this](https://forums.xamarin.com/discussion/comment/190767/#Comment_190767)). Most of them are implemented in Swift/Obj-C, some are somehow incomplete even if provided with Xamarin code. Here is a short compilation of my findings.
 
 The steps are easy:
 
@@ -25,7 +25,38 @@ Fortunately both method and property are implemented as virtual.
 Here is the ready example:
 
 ```csharp
-public class UiExtraPaddingLabel : UILabel{    private readonly UIEdgeInsets _edgeInsets;    public UiExtraPaddingLabel(nfloat padding)        : this(padding, padding, padding, padding)    {    }    public UiExtraPaddingLabel(nfloat top, nfloat left, nfloat bottom, nfloat right)    {        _edgeInsets = new UIEdgeInsets(top, left, bottom, right);    }    public override void DrawText(CGRect rect)    {        base.DrawText(_edgeInsets.InsetRect(rect));    }    public override CGSize IntrinsicContentSize    {        get        {            var originalSize = base.IntrinsicContentSize;            originalSize.Width += _edgeInsets.Left + _edgeInsets.Right;            originalSize.Height += _edgeInsets.Top + _edgeInsets.Bottom;            return originalSize;        }    }}
+public class UiExtraPaddingLabel : UILabel
+{
+    private readonly UIEdgeInsets _edgeInsets;
+
+    public UiExtraPaddingLabel(nfloat padding)
+        : this(padding, padding, padding, padding)
+    {
+    }
+
+    public UiExtraPaddingLabel(nfloat top, nfloat left, nfloat bottom, nfloat right)
+    {
+        _edgeInsets = new UIEdgeInsets(top, left, bottom, right);
+    }
+
+    public override void DrawText(CGRect rect)
+    {
+        base.DrawText(_edgeInsets.InsetRect(rect));
+    }
+
+    public override CGSize IntrinsicContentSize
+    {
+        get
+        {
+            var originalSize = base.IntrinsicContentSize;
+
+            originalSize.Width += _edgeInsets.Left + _edgeInsets.Right;
+            originalSize.Height += _edgeInsets.Top + _edgeInsets.Bottom;
+
+            return originalSize;
+        }
+    }
+}
 ```
 
 Cheers!

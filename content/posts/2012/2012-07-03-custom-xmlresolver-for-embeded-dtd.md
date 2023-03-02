@@ -9,7 +9,7 @@ title: Custom XmlResolver for embeded DTD
 ---
 
 Writing a component for parsing XML files with `XMLSerializer` I had to provide DTD validation (DTD file was already created long time ago so there was no sense for creating XSD schema). The component must have been able to work in console application and web app (as a SharePoint timer job) so there was no chance to guarantee the same paths for DTD file (which was always specified in doctype directive in processed files). In such situation I've decided to deliver the DTD file as embedded resource in component assembly.  
-<!--more-->
+
 If you had ever faced the similar problem you probably know that standard `XmlResolver` implementations in .Net framework will not able to find DTD in such location. If you try you will probably get an exception like this:  
 
 ```

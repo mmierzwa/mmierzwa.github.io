@@ -15,7 +15,7 @@ At first I tried using [SPList.Forms](http://msdn.microsoft.com/en-us/library/mi
 ```csharp
 var defaltViewUrl = documentLibrary.Forms[PAGETYPE.PAGE_DEFAULTVIEW].Url;
 ```
-<!--more-->
+
 I was getting the following exception:
 
 ```

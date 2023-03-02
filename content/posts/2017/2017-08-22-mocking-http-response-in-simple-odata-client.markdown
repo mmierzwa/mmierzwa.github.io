@@ -8,7 +8,7 @@ tags:
 title: Mocking HTTP response in Simple.OData client
 ---
 
-3rd party libraries never seems to be documented enough. It's the old truth that every software developer learns sooner or later. In most cases after dozens of hours spent on trying to figure out "what the hell is wrong with my/that code!?". This post is about one of such "hidden features" in Microsoft oData client - [Simple.OData](https://github.com/object/Simple.OData.Client).<!--more-->
+3rd party libraries never seems to be documented enough. It's the old truth that every software developer learns sooner or later. In most cases after dozens of hours spent on trying to figure out "what the hell is wrong with my/that code!?". This post is about one of such "hidden features" in Microsoft oData client - [Simple.OData](https://github.com/object/Simple.OData.Client).
 
 Well written communication libraries in .NET allow for replacing their `HttpMessageHandler`. Some might want to add diagnostic logging or low-level error handling to the HTTP processing pipeline. Another reason is writing unit tests. This was my case.
 

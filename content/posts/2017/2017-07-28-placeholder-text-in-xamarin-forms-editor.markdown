@@ -13,7 +13,7 @@ tags:
 title: Placeholder text in Xamarin.Forms Editor
 ---
 
-Standard Xamarin.Forms [Xamarin.Forms.Editor control](https://developer.xamarin.com/api/type/Xamarin.Forms.Editor) offers edit capabilities similar to `Entry` but for multiline text. Unfortunately unlike `Entry` it doesn't support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let's see how to do this on Android and iOS.<!--more-->
+Standard Xamarin.Forms [Xamarin.Forms.Editor control](https://developer.xamarin.com/api/type/Xamarin.Forms.Editor) offers edit capabilities similar to `Entry` but for multiline text. Unfortunately unlike `Entry` it doesn't support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let's see how to do this on Android and iOS.
 
 First step, as for every custom renderer, is to create a custom Forms control:
 

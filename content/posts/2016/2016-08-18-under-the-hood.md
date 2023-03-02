@@ -11,7 +11,7 @@ title: Under the hood
 ---
 
 It's always good to have static code analysis in your build process. I guess no one these days argues with this statement. This usually forces developer to make conscious decisions on code-level performance, reliability, security, design etc. Few times CA warnings saved me from producing a quite nasty bugs. Sometimes however FxCop yields some really strange stuff.  
-This post will describe the one I stuck with some time ago. But more interestingly it shows that sometimes .Net developer must look deep under the hood of high-level language abstraction to solve certain issues.<!--more-->
+This post will describe the one I stuck with some time ago. But more interestingly it shows that sometimes .Net developer must look deep under the hood of high-level language abstraction to solve certain issues.
 
 ## The story
 

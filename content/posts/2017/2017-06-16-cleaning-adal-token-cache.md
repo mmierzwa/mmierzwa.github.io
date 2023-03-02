@@ -14,7 +14,7 @@ title: Cleaning ADAL token cache on Android and iOS
 
 Microsoft [Azure Active Directory Authentication Libraries](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) is a popular set wrapper around [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/) API distributed in the form of platform and language specific components. It's especially useful in multi-platform applications that integrate with various AD APIs such as Outlook or Graph API. It not only wraps the oAuth endpoints but automates the entire application flow for retrieving, refreshing and persisting tokens.
 
-Unfortunately, among many features, ADAL does not provide the logout functionality out of the box. Let's see how to implement this in few simple steps.<!--more-->
+Unfortunately, among many features, ADAL does not provide the logout functionality out of the box. Let's see how to implement this in few simple steps.
 
 First one is to define a common abstraction that can be referenced in PCL:
 

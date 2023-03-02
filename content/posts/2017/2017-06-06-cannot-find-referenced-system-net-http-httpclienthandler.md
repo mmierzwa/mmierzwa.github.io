@@ -9,7 +9,7 @@ title: ModernHttpClient and 'Type HttpClientHandler defined in unreferenced asse
   error
 ---
 
-[ModernHttpClient](https://github.com/paulcbetts/ModernHttpClient) is a great wrapper around native HTTP clients offered by Xamarin. It wraps `NSURLSession` on iOS and `OkHttp` on Android. As it deals pretty well with SSL/TLS stack (especially in uncommon scenarios) it's often used instead of built-in types. I switched to `ModernHttpClient` because of  weird errors on connections to the preproduction environment in Android.<!--more-->
+[ModernHttpClient](https://github.com/paulcbetts/ModernHttpClient) is a great wrapper around native HTTP clients offered by Xamarin. It wraps `NSURLSession` on iOS and `OkHttp` on Android. As it deals pretty well with SSL/TLS stack (especially in uncommon scenarios) it's often used instead of built-in types. I switched to `ModernHttpClient` because of  weird errors on connections to the preproduction environment in Android.
 
 One disadvantage of using this library is that it's not actively maintained (last update in repo was from Jan 2016). There are [few annoying bugs](https://github.com/paulcbetts/ModernHttpClient/issues) that have not been (and probably won't be) fixed. Because of [one of them](https://github.com/paulcbetts/ModernHttpClient/issues/195) I was forced to customize the Android client a little bit. The result was the unusual reference to the `NativeMessageHandler` in iOS project. Locally everything was working fine but on the build machine the following error appeared (in the native iOS project):
 

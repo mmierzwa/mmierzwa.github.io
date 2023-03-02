@@ -9,7 +9,7 @@ tags:
 title: 'AAPT: Unknown option ''--no-version-vectors'''
 ---
 
-If you ever encountered the error `AAPT: Unknown option '--no-version-vectors'` during the Xamarin build you probably found [this page](https://forums.xamarin.com/discussion/63482/aapt-error-unknown-option-no-version-vectors) looking for a solution. Like I did. Then you probably first tried setting `AndroidSdkBuildToolsVersion` to the latest you have. Just like me. Or uninstall all the older versions. If this didn't work (like in my case) stay with me.<!--more-->
+If you ever encountered the error `AAPT: Unknown option '--no-version-vectors'` during the Xamarin build you probably found [this page](https://forums.xamarin.com/discussion/63482/aapt-error-unknown-option-no-version-vectors) looking for a solution. Like I did. Then you probably first tried setting `AndroidSdkBuildToolsVersion` to the latest you have. Just like me. Or uninstall all the older versions. If this didn't work (like in my case) stay with me.
 
 The suggestion of changing the [build tools](https://developer.xamarin.com/guides/android/under_the_hood/build_process/#AndroidSdkBuildToolsVersion) version in Droid csproj didn't even look promising for me. I had only one version installed - `25.0.3` - and this was the latest one (at the time I'm writing this post). Nevertheless I checked this out, just in case, as this was the accepted solution in this thread. The error did not disappear.
 

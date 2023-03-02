@@ -21,7 +21,7 @@ at Microsoft.SharePoint.Taxonomy.Internal.CommonValidator.ValidateName(String na
 at Microsoft.SharePoint.Taxonomy.TermSetItem.CreateTerm(String name, Int32 lcid, Guid newTermId)  
 ...  
 ```
-<!--more-->
+
 
 Looking for some help in SharePoint API documentation for method [TermSetItem.CreateTerm()](http://msdn.microsoft.com/en-us/library/ee583797.aspx) I found the explanation for this error:  
 

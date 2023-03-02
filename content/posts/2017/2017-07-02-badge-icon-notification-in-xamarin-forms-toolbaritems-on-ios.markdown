@@ -8,7 +8,7 @@ tags:
 title: Badge icon notification in Xamarin.Forms ToolbarItems on iOS
 ---
 
-Most of iPhone and iPad users can easily recognize icon badges - the pattern for application notifications typically presented in app icon or navigation bar. People that got used to this pattern might want to have the same user experience in their Xamarin Forms application. This post describes how to customize the navigation toolbar in iOS to dynamically display such elements.<!--more-->
+Most of iPhone and iPad users can easily recognize icon badges - the pattern for application notifications typically presented in app icon or navigation bar. People that got used to this pattern might want to have the same user experience in their Xamarin Forms application. This post describes how to customize the navigation toolbar in iOS to dynamically display such elements.
 
 When I was asked to prepare the static (but still clickable and interactive) mockup views that include badge icon in nav bar I didn't realize that the task is really non-trivial. It's the one from category of tasks that are much easier to implement in native Xamarin. In this case the Xamarin Forms add few layers of indirection that makes the process painful.
 

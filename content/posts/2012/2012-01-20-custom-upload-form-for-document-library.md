@@ -16,7 +16,7 @@ As I wrote previously the one of my recent projects was to create a new upload p
 4.  [Creating a custom action in ribbon with custom rendering template for ribbon](http://blogs.msdn.com/b/syedi/archive/2008/07/18/custom-upload-page-in-layouts-for-document-library-and-it-s-navigation-from-upload-menu-in-the-toolbar-bend-it-custom-upload-menu-for-the-document-library.aspx) - very nice solution when you want to change upload pages for all lists on farm, but this is not applicable in my case; still "Add new document" link at the bottom remains
 
 There were also other approaches like changing all related links with jQuery on client side but I would prefer some simple, elegant and server side solution that will not cause any problems on migration to the next version of SharePoint.
-<!--more-->
+
 
 Because document libraries does not have the `New form` (new documents are uploaded or created from Office templates), setting links in list template schema in [Forms](http://msdn.microsoft.com/en-us/library/ie/ms464220.aspx) section **won't work**:
 

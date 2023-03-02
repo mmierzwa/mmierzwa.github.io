@@ -14,7 +14,7 @@ It's very common to have multiple versions of the app during development - i.e. 
 Publishing app to App Store or Google Play developers often forget that the mobile application is running de facto in hostile environment. Advanced user can easily reverse engineer the installed package on rooted/jailbroken device or even an emulator and see the data that wasn't supposed to be released on production. As you will see this is just a different aspect of the multi-version app config.
 
 This article is a continuation of [previous]({% post_url 2017/2017-12-02-enterprise-patterns-for-configuration-in-xamarin-app-part-1 %}) [posts]({% post_url 2017/2017-12-06-enterprise-patterns-for-configuration-in-xamarin-app-part-2 %}). If you haven't read those I strongly recommend doing it now since I'll refer to them here.
-<!--more-->
+
 
 ## Environments, versions, configurations
 

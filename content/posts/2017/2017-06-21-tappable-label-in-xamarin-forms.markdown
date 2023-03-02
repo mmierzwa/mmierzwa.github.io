@@ -9,7 +9,7 @@ title: Tappable label in Xamarin.Forms
 
 Adding tap/click handling to Xamarin.Forms Label is fairly easy. You can do it both in XAML or code behind using `GesureRecognizers` collection like it is [described in this recipe](https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/gestures/tap/). Unfortunately if you plan to use this solution intensively in your app it will add quite a lot of repeatable code for setting up those handlers (especially in XAML)
 
-In this short recipe I will show how to implement a custom control that is easy to use and potentially to extend if needed.<!--more-->
+In this short recipe I will show how to implement a custom control that is easy to use and potentially to extend if needed.
 
 In most cases the custom controls in Xamarin.Forms are written together with custom platform renderers. This time there is no need doing this because all required functionality is contained within the standard Forms Label. All that needs to be done is to simplify its usage by exposing additional bindable properties. Those properties can be used in XAML to wire up the Labels behavior with model commands.
 

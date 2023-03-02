@@ -13,7 +13,7 @@ XAML compilation is (or at least should be) one of the default optimisation step
 ```
 /path/to/project/Views/MyContentPage.xaml : error : Object reference not set to an instance of an object
 ```
-<!--more-->
+
 
 First time I saw it I had absolutely no clue what was the reason. The [common solutions for similar issues with VS for Mac designer](https://forums.xamarin.com/discussion/63201/xaml-compilation-object-reference-not-set-to-an-instance-of-an-object) did not help. I started with trying to narrow down the problematic code using the standard bisection method. After few cut-compile-paste cycles I knew that the root cause was this line in my XAML file:
 

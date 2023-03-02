@@ -23,7 +23,7 @@ The problem was discussed on the TechNet forum ([Selecting more than 100 files i
 > Notes: The user interface allows a maximum of 100 items to be selected for bulk operations.
 
 What is interesting and what was not mentioned in TechNet topic, the limit is controlled on client side by a script, what I will show.
-<!--more-->What happens when you click on select-all-items check box? This is a pseudo-callstack of JS calls:  
+What happens when you click on select-all-items check box? This is a pseudo-callstack of JS calls:  
 
 ```html
 <input type="checkbox"   

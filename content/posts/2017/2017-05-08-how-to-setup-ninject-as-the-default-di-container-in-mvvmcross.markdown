@@ -20,7 +20,7 @@ When you build a multi-platform application in .NET, especially for the mobile, 
 
 Thanks to the consistent design, all the plugins and extensions, it can seriously speed-up building UI-intensive cross-platform projects. And it still allows you to take all the benefits provided by MVVM design pattern.
 
-Now let’s see how to make Ninject and MvvmCross work together on your project.<!--more--> I will describe how to set it up for PCL, Xamarin.iOS and Xamarin.Android (the general rules remain the same for other platforms).
+Now let’s see how to make Ninject and MvvmCross work together on your project. I will describe how to set it up for PCL, Xamarin.iOS and Xamarin.Android (the general rules remain the same for other platforms).
 
 You can implement everything from scratch, but I decided to use a helper package [MvvmCross.Adapter.Ninject](https://github.com/thefex/MvvmCross.Adapter.Ninject). To avoid adding new dependency and to be able to track dependencies in depth, I just add this code to my projects (it's only two classes in PCL and one for each platform). If you decide to add it as a NuGet package, remember to check for pre-release versions. Also, keep in mind that two platform-specific classes - `NinjectMvxIosSetup` and `NinjectMvxDroidSetup` - are missing in the package. In such case, remember to add them as I describe below.
 

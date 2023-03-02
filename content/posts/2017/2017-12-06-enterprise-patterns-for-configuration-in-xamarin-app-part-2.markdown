@@ -12,7 +12,7 @@ title: 'Enterprise patterns for configuration in Xamarin app. Part 2: Managing d
 In [last post]({% post_url 2017/2017-12-02-enterprise-patterns-for-configuration-in-xamarin-app-part-1 %}) I described how to cope, in some extent, with different pace of delivering mobile app versus it's supporting backend. The article also provided a simple hint for speeding up the mobile app development by introducing mocks instead of the external network services.
 
 In this one I'm gonna give you some advice on managing the dependencies as your app gets more of them in time.
-<!--more-->
+
 
 ## Managing mocks
 

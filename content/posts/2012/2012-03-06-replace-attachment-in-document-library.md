@@ -7,7 +7,7 @@ tags:
 title: Replace attachment in document library without changing version number
 ---
 
-Lately I was looking for some example on how to replace the attachment in document library (SP2010) without changing the version number but without any results. If you've faced the same problem here is the solution<!--more-->:
+Lately I was looking for some example on how to replace the attachment in document library (SP2010) without changing the version number but without any results. If you've faced the same problem here is the solution:
 
 ```csharp
 SPWeb webSite = SPContext.Current.Web;  

@@ -15,7 +15,7 @@ Modern mobile apps are rarely developed as offline-only. They typically communic
 Even if the backend service is ready to consume it's not always most convenient to develop being connected to it. Sometimes you just make a small UI change and want to see the result immediately. Even the fastest Internet connection would not give you the speed of loading the mocked data from memory. It's also easier to use the same approach in automated UI tests instead of depending on data changing in backend (if you don't test the integration itself).
 
 Those are only two of many various scenarios where the proper design of application-level configuration can help in the development and testing process. Proper use of [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection), conditional compilation and few other techniques can make this design clean and maintainable. This spans from the local development to Continuous Integration and Deployment process. In this and next articles I will show you how to do this in Xamarin app.
-<!--more-->
+
 
 ## Basic mocking
 

@@ -11,7 +11,7 @@ title: Ingo Rammer - Hardcore .NET Production Debugging
 
 Have you ever had a problem with a user complaining on and on that when he clicks some button in your application his computer hangs but it works fine on any other machine where you have tested it? The web service is consuming all the available memory in completely indeterministic way? Or maybe your web application is magically crashing on production machine when it works in the same usage scenario on development and test environment? If not, you are probably in about 1% of the most luckiest developers in the world (or you are not the developer).  
 
-Last year I attended in [Norwegian Developers Conference 2011](http://www.ndc2011.no) in Oslo where among many other great presentations I've watched the one presented by Ingo Rammer - "Hardcore .NET Production Debugging".<!--more--> The [presenter](http://www.thinktecture.com/staff/ingo) is one of co-funders of consulting company [ThinkTecture](http://www.thinktecture.com) and specializes in profiling and debugging.  
+Last year I attended in [Norwegian Developers Conference 2011](http://www.ndc2011.no) in Oslo where among many other great presentations I've watched the one presented by Ingo Rammer - "Hardcore .NET Production Debugging". The [presenter](http://www.thinktecture.com/staff/ingo) is one of co-funders of consulting company [ThinkTecture](http://www.thinktecture.com) and specializes in profiling and debugging.  
 
 Here is the presentation description from NDC2011 agenda:  
 

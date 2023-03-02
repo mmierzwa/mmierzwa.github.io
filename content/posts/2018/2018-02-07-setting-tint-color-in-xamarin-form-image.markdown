@@ -12,7 +12,7 @@ title: Setting tint color in Xamarin.Form image
 Today's mobile apps are rarely created as text-only. Most of them needs at least in-app icons for toolbars. In many cases you can find graphics for mobile platforms as ready to use resources on the Internet, i.e. [Material Design icons](https://material.io/icons/). Sometimes they are prepared by graphic designers specially for your apps.
 
 No matter which case is your's, sooner or later you will probably need to adjust the images inside your app. One of the most common customisation is setting the tint color of the image. In Xamarin.Forms you can easily do it with [Effects](https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/effects/introduction/), which I will show in this post.
-<!--more-->
+
 
 The inspiration for code samples shown bellow was [this tutorial project](https://github.com/shrutinambiar/xamarin-forms-tinted-image). The original implementation was based on [Custom Renderers](https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/custom-renderer/) rather than Effects. I personally prefer the later because I can apply many Effects on a common Forms element, mixing the visual changes and added behaviours which I find cumbersome with Custom Renderers approach.
 

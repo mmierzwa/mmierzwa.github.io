@@ -8,7 +8,7 @@ tags:
 title: 'Error executing task BuildApk: packaged_resources does not exist'
 ---
 
-Have you ever encountered an error: `Error executing task BuildApk: .../bin/packaged_resources does not exist`? If so you probably know that solving this issue can be sometimes quite tricky. It may be hard to track when and where the true bug was introduced in the code base. Although some suggestions can be [found on the Xamarin Forum](https://forums.xamarin.com/discussion/63356/the-file-obj-debug-android-bin-packaged-resources-does-not-exist) the solution usually differ case by case.<!--more-->
+Have you ever encountered an error: `Error executing task BuildApk: .../bin/packaged_resources does not exist`? If so you probably know that solving this issue can be sometimes quite tricky. It may be hard to track when and where the true bug was introduced in the code base. Although some suggestions can be [found on the Xamarin Forum](https://forums.xamarin.com/discussion/63356/the-file-obj-debug-android-bin-packaged-resources-does-not-exist) the solution usually differ case by case.
 
 The initial error may look like this:
 

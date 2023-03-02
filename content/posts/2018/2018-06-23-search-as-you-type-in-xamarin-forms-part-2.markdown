@@ -8,10 +8,9 @@ tags:
 title: Search as you type in Xamarin.Forms - the Reactive Extensions way
 ---
 
-In [my previous post]({{ site.baseurl }}{% post_url 2018/2018-06-18-search-as-you-type-in-xamarin-forms %}) I showed how to introduce search as type behavior into Xamarin.Forms app with standard [Forms Behavios](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/).
+In [my previous post]({{ site.baseurl }}{% post_url 2018/2018-06-18-search-as-you-type-in-xamarin-forms %}) I showed how to introduce search as type behavior into Xamarin.Forms app with standard [Forms Behaviors](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/).
 
 Let's see how to do it in other, more declarative and configurable manner, using [Reactive Extensions (Rx)](https://github.com/dotnet/reactive) instead of `Task` and `CancellationTokenSource`.
-<!--more-->
 
 To keep the code as short as possible I'll further assume that you have read the [previous article](({{ site.baseurl }}{% post_url 2018/2018-06-18-search-as-you-type-in-xamarin-forms %})) and have it opened as a reference. The implementation uses the same Forms `Behavior` as the previous one did, but the delay between search phrase changes and running the search will be handled differently.
 

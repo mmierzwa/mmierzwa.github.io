@@ -11,7 +11,7 @@ title: WebPagetest - distributed web profiler
 ---
 
 There are many popular tools for web performance profiling/debugging these days. From my personal tool set I could mention [Firebug](http://getfirebug.com/), IE Developers Toolbar (integrated with IE from version > 8) or [Fiddler](http://www.fiddler2.com/fiddler2/). The common problem with those tools is that they are installed and run locally on developers machine. Sometimes, for example when behaviour of the web app depends on loading all elements in the specific order or time, it is important to determine if those factors vary in different geographical locations. The download speed for China and Germany could be very different. If you face with this kind of problems I could recommend you a great distributed web performance profiler - [WebPageTest](http://www.webpagetest.org/).  
-<!--more-->
+
 
 With this tool you can run a series of tests for a given URL, defined location (many available around the world) and browser. This is the most basic operation but you can choose also the visual performance comparison with other pages, test for mobile browsers or trace-route.  
 

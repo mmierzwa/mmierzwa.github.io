@@ -10,7 +10,7 @@ title: SharePoint 2010 Batch Edit
 For the years I have developed .Net projects I've found many useful solutions on [CodePlex](http://www.codeplex.com/) repository. Some of them are only drafts of ideas but there are also many products that are ready to use on production environments. [SharePoint 2010 Batch Edit](http://sp2010batchedit.codeplex.com/) which worked with recently is one of this from the second category.  
 
 As the name suggests, SharePoint 2010 Batch Edit fills the gap in mass updates functionality in SharePoint 2010. In OOB SP2010 you can select one or more items on list view and perform such operations as check-in, check-out, delete an so on, but there is no tool that would allow to update items data for more than one item at once. Of course you can always write your own application page and display it in dialog box but why you should do this if someone already has done it :-)  
-<!--more-->
+
 The feature works quite intuitively. After installation from PowerShell (or stsadm) and activation in administration central you will see a new button in items ribbon. When you select more than one item on list the button is enabled and after click you will see a dialog box with a form that allows you update your items.  
 
 <figure class="half center">

@@ -14,7 +14,7 @@ Microsoft.SharePoint.Taxonomy.TermStoreOperationException:
   There is already a term with the same default label and parent term.  
 ```
 
-<!--more-->
+
 
 <pre class="brush: text">at Microsoft.SharePoint.Taxonomy.MetadataWebServiceApplicationProxy.<>c__DisplayClass2c.b__2b()  
 at Microsoft.Office.Server.Security.SecurityContext.RunAsProcess(CodeToRunElevated secureCode)  

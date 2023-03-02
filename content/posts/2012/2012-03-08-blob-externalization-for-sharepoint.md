@@ -8,7 +8,7 @@ title: BLOB externalization for SharePoint - Metalogix StoragePoint
 ---
 
 I'm working in a team that builds and maintains a big document management system. Since SharePoint itself is not the best option for storing large amount of files (which can be also quite large) and serving them (performance, content DB size limitations etc.) I was evaluating some options for content externalization. I will not get into much details about the reasons for using such solutions because there are many well written articles about this on the Net (like ["SharePoint 2010: Storing Documents on the File System with Remote Blob Storage"](http://www.simple-talk.com/content/article.aspx?article=1280) by Damon Armstrong). I will focus on one - [Metalogix StoragePoint](http://www.metalogix.com/Products/StoragePoint.aspx).  
-<!--more-->
+
 
 I had chance to work with trial Enterprise 3.2.0.17 version of this product (with SP2010), so if you plan using the Standard version some features described bellow might not work.  
 

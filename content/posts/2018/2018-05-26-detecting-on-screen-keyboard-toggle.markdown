@@ -14,7 +14,7 @@ Detecting on-screen keyboard toggles and proper handling of such changes can be 
 While there are [few posts](https://www.codeproject.com/Articles/1172935/Detecting-Software-Keyboard-Events-in-Xamarin-Andr) or [SO](https://stackoverflow.com/questions/4745988/how-do-i-detect-if-software-keyboard-is-visible-on-android-device) [questions](https://stackoverflow.com/questions/2150078/how-to-check-visibility-of-software-keyboard-in-android) on this matter I found no comprehensive text so far.
 
 In this article, I'll focus on detection. I will show you how to instrument your Xamarin.Forms app so you could react on soft keyboard toggles in a unified manner both on iOS and Android.
-<!--more-->
+
 
 The general idea is to have a platform component that, once started, will notify the entire app about two facts: that the software keyboard is displayed/hidden and what is its height.
 

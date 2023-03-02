@@ -8,7 +8,7 @@ tags:
 title: Detecting device resolution in Xamarin apps
 ---
 
-Considering Xamarin there can be many reasons for need of screen resolution detection in mobile app. You may have more complex logic of loading your resources possibly split between PCL and Android/iOS projects. Other might want to send this information with REST request for reporting. Whatever your reason is, here is a very short text on how to do it in IoC-friendly way.<!--more-->
+Considering Xamarin there can be many reasons for need of screen resolution detection in mobile app. You may have more complex logic of loading your resources possibly split between PCL and Android/iOS projects. Other might want to send this information with REST request for reporting. Whatever your reason is, here is a very short text on how to do it in IoC-friendly way.
 
 First we will need some abstraction for the platform-agnostic part of the solution:
 

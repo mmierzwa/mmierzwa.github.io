@@ -9,7 +9,7 @@ title: Implementing search as type in Xamarin.Forms search bar
 ---
 
 Search as type functionality is quite often seen on the web as well as in mobile apps. Let's see how to make it work in Xamarin.Forms.
-<!--more-->
+
 
 The simplest way of implementing such behavior is to run a search on each phase change. In other words - every time user types or deletes a letter in a search box the search function (and results list update) is performed. As you may already see, this is not the most efficient way of doing this.
 
