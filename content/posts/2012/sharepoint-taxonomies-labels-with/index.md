@@ -9,14 +9,14 @@ title: SharePoint Taxonomies - Labels with forbiden characters
 
 Recently, when I was working on mechanism of automatic synchronization of tree structures provided by web service to SharePoint taxonomies, I came across an error like this:  
 
-```
+```text
 The value '(<= 0320-775, 0550-5/7)' is invalid. It probably contains invalid characters or is too long.  
 Parameter name: name  
 ```
 
 with the following stacktrace fragment:  
 
-```
+```text
 at Microsoft.SharePoint.Taxonomy.Internal.CommonValidator.ValidateName(String name, String parameterName)  
 at Microsoft.SharePoint.Taxonomy.TermSetItem.CreateTerm(String name, Int32 lcid, Guid newTermId)  
 ...  

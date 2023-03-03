@@ -14,13 +14,13 @@ I had chance to work with trial Enterprise 3.2.0.17 version of this product (wit
 
 ## General concept
 
-Metalogix StoragePoint is a content externalization solution for SharePoint that works on both EBS (External BLOB Storage) and RBS (Remote BLOB Storage) levels. The first one is an option for SQL pre-2008R2 backend and also adds some features (higher granularity of externalization scopes such as site collections or lists). RBS came up with SQL 2008R2, so this kind of integration works well with SP2010. StoragePoint installation requires additional DB in SQL in order to maintain mappings between SharePoint items and target BLOBs location (and for its internal configuration).  
+Metalogix StoragePoint is a content externalization solution for SharePoint that works on both EBS (External BLOB Storage) and RBS (Remote BLOB Storage) levels. The first one is an option for SQL pre-2008R2 backend and also adds some features (higher granularity of externalization scopes such as site collections or lists). RBS came up with SQL 2008R2, so this kind of integration works well with SP2010. StoragePoint installation requires additional DB in SQL in order to maintain mappings between SharePoint items and target BLOBs location (and for its internal configuration).
 
 <figure class="half center">
   <a href="/images/2012/03/admin_3_endpoints.png" class="image-popup">
 	 <img src="/images/2012/03/admin_3_endpoints.png" alt="Storage endpoints management">
    </a>
-	<figcaption>Storage endpoints management</figcaption>
+	<figcaption></figcaption>
 </figure>
 
 Target storage is defined as Endpoint. For each Endpoint SP administrator defines storage type (like file system or cloud), storage specific configuration (i.e. UNC path, credentials) and choose if the synchronization will be performed synchronously or asynchronously. Generally operations (endpoint selection and writing the BLOB) performed synchronously are blocking the user control while asynchronous operations use timer job (BLOB Migration Agent) with cache (a special additionally configured endpoint) in order to behave like the name suggests.  

@@ -9,14 +9,11 @@ title: SharePoint Taxonomies - Struggling with duplicated default labels
 
 If you have ever had to load large number of data into SharePoint MMD service or build taxonomies automatically you have likely encountered the following problem:  
 
-```
+```text
 Microsoft.SharePoint.Taxonomy.TermStoreOperationException:
   There is already a term with the same default label and parent term.  
-```
 
-
-
-<pre class="brush: text">at Microsoft.SharePoint.Taxonomy.MetadataWebServiceApplicationProxy.<>c__DisplayClass2c.b__2b()  
+at Microsoft.SharePoint.Taxonomy.MetadataWebServiceApplicationProxy.<>c__DisplayClass2c.b__2b()  
 at Microsoft.Office.Server.Security.SecurityContext.RunAsProcess(CodeToRunElevated secureCode)  
 at Microsoft.SharePoint.Taxonomy.MetadataWebServiceApplicationProxy.<>c__DisplayClass2c.b__2a()  
 at Microsoft.Office.Server.Utilities.MonitoredScopeWrapper.RunWithMonitoredScope(Action code)  
@@ -26,13 +23,13 @@ at Microsoft.SharePoint.Taxonomy.Internal.TaxonomyProxyAccess.Write(String data)
 at Microsoft.SharePoint.Taxonomy.Internal.DataAccessManager.Write(String data)  
 at Microsoft.SharePoint.Taxonomy.Internal.Sandbox.CommitSandbox()  
 at Microsoft.SharePoint.Taxonomy.TermStore.CommitAll()  
-</pre>
+```
 
 Not very informative stack trace as you see... First, this happens during the commit, not on creation of new term. Second, there is no information about the conflicting labels. (This is because the validation is done in SQL after building the whole changed structure, which you can check in ULS logs). This error could be quite frustrating, which I've experienced myself (I lost three days on this when I was implementing full synchronization of large tree structure with SP taxonomies). I will try to give some hints all of those which are struggling with duplicated labels.  
 
 ## Remember about default label conversions
 
-As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"]({{ site.baseurl }}{% post_url 2012/2012-09-20-sharepoint-taxonomies-labels-with %}), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
+As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"](/posts/2012/sharepoint-taxonomies-labels-with), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
 
 The result of above is that label `" black duck & goose "` and `"black duck ＆ goose"` will be treated as the same label string.  
 

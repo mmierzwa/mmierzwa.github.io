@@ -47,7 +47,7 @@ googleAnalytics = "AW-817647716"
   invertPagination = false
   showReadingTime = true
   showTableOfContents = false
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   showComments = true
   sharingLinks = ["facebook", "twitter", "mastodon", "reddit", "linkedin"]
@@ -56,8 +56,8 @@ googleAnalytics = "AW-817647716"
   showBreadcrumbs = false
   showSummary = true
   showTableOfContents = false
-  showTaxonomies = false
-  groupByYear = true
+  showTaxonomies = true
+  groupByYear = false
   paginationWidth = 1
 
 [sitemap]

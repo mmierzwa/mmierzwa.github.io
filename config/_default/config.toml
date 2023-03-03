@@ -13,4 +13,5 @@ summaryLength = 20
   home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
-  pages = '/:slug/'
+  pages = "/:slug/"
+  posts = "/blog/:filename"

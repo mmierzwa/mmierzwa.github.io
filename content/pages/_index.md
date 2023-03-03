@@ -5,4 +5,5 @@ cascade:
     showComments: false
     showSummary: false
     sharingLinks: false
+    showPagination: false
 ---

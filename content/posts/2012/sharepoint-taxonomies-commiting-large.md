@@ -9,13 +9,13 @@ title: SharePoint Taxonomies - Committing large amount of data to the MMD servic
 
 Once again about the SharePoint 2010 taxonomy service.  
 
-As I wrote in my previous posts, loading data into MMD service automatically can be quite a challenge. First, you must [remember about illegal characters in terms labels]({{ site.baseurl }}{% post_url 2012/2012-09-20-sharepoint-taxonomies-labels-with %}). Second, you must [trace duplicates across sibling nodes]({{ site.baseurl }}{% post_url 2012/2012-09-28-sharepoint-taxonomies-struggling-with %}) in taxonomy trees. And this could not be the end of your problems especially if you plan to load some more data at one time.  
+As I wrote in my previous posts, loading data into MMD service automatically can be quite a challenge. First, you must [remember about illegal characters in terms labels](/posts/2012/sharepoint-taxonomies-labels-with). Second, you must [trace duplicates across sibling nodes](/posts/2012/sharepoint-taxonomies-struggling-with) in taxonomy trees. And this could not be the end of your problems especially if you plan to load some more data at one time.  
 
 Since MMD service is transactional you must first perform the [commit](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.termstore.commitall.aspx) operation in order to see your changes in MMD picker. From the programmatic point of view MMD service is a classic WCF service with http/https endpoints and [client proxy](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.taxonomysession.aspx) which is used in daily SharePoint development.  
 
 When you try to perform some more complex set of operations (like adding or removing large number of terms and term sets) in one transaction you may come across the following error:  
 
-```
+```text
 An error occurred while receiving the HTTP response to
 http://hostname:32843/3d1e97ecf7074067957b8efdac3ae1ab/MetadataWebService.svc.
 This could be due to the service endpoint binding not using the HTTP protocol.
@@ -25,7 +25,7 @@ This could also be due to an HTTP request context being aborted by the server
 
 Here is a full error description:  
 
-```
+```text
 System.ServiceModel.CommunicationException was caught  
   Message=An error occurred while receiving the HTTP response to http://hostname:32843/3d1e97ecf7074067957b8efdac3ae1ab/MetadataWebService.svc. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.  
   Source=mscorlib  
@@ -83,7 +83,7 @@ The bottom exception of the stack trace - `System.Net.WebException` (_The underl
 
 When changed this the `System.ServiceModel.CommunicationException` disappeared but I've got another error:
 
-```  
+```text
 System.TimeoutException was caught  
 Message=The request channel timed out while waiting for a reply after 00:00:29.9570296.
 Increase the timeout value passed to the call to Request or increase the SendTimeout
@@ -93,7 +93,7 @@ longer timeout.
 
 and the full error description:  
 
-```
+```text
 System.TimeoutException was caught  
   Message=The request channel timed out while waiting for a reply after 00:00:29.9570296\. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.  
   Source=mscorlib  
