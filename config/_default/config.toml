@@ -11,3 +11,6 @@ summaryLength = 20
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  pages = '/:slug/'

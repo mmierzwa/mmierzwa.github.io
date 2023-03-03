@@ -1,10 +1,6 @@
 ---
 title: "cookies policy"
-showDate: false
-showReadingTime: false
-showComments: false
-showSummary: false
-sharingLinks: false
+slug: "cookies"
 ---
 ## What Are Cookies
 

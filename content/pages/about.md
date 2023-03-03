@@ -1,10 +1,6 @@
 ---
 title: "about me"
-showDate: false
-showReadingTime: false
-showComments: false
-showSummary: false
-sharingLinks: false
+slug: "about"
 ---
 
 Hi! My name is Marek Mierzwa. Who I am?
