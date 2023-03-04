@@ -2,12 +2,15 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-baseURL = "https://marek-mierzwa.com/"
+baseURL = "https://byteloom.marek-mierzwa.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 20
+
+disqusShortname = "bytel00mbloggithubpages"
+googleAnalytics = "G-Y6JG3PC3SH"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
