@@ -12,9 +12,6 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-disqusShortname = "bytel00mbloggithubpages"
-googleAnalytics = "AW-817647716"
-
 # robots = ""
 
 [header]
