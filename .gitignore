@@ -1,12 +1,1 @@
-_site
-.sass-cache
-.jekyll-metadata
-/1.6.8.rc2'
-*.user
-*.suo
-*.config
-/obj/Debug
-.DS_Store
-node_modules
-npm-debug.log
-_drafts/
+resources/**

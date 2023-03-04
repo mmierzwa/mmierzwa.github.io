@@ -1,0 +1,21 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+baseURL = "https://marek-mierzwa.com/"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  pages = "/:slug/"
+  posts = "/blog/:filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true

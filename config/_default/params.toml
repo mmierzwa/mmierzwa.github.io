@@ -1,0 +1,77 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/configuration/#theme-parameters
+
+colorScheme = "fire"
+defaultAppearance = "dark" # valid options: light or dark
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+disqusShortname = "bytel00mbloggithubpages"
+googleAnalytics = "AW-817647716"
+
+# robots = ""
+
+[header]
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+  # logo = "img/logo.jpg"
+  showTitle = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = false
+#  recentLimit = 5
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  editURL = "https://github.com/mmierzwa/mmierzwa.github.io/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showComments = true
+  sharingLinks = ["facebook", "twitter", "mastodon", "reddit", "linkedin"]
+
+[list]
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = true
+  showTaxonomies = true
+  groupByYear = false
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[verification]
+  google = "tIKtPGZmvX3yzfBwbwKqyT-ueu3F4QUgHvLfmrOOMBo"
+  bing = "DFE18A7DA629947848B0673582CE3E86"
+  # pinterest = ""
+  # yandex = ""
