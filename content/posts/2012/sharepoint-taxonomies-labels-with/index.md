@@ -59,33 +59,13 @@ public static string ReplaceIllegalCharacters(string termLabel)
 
 This works fine either in web interface and other clients (I've tested it with MS Word 2010 and Lotus Notes widget for SharePoint integration - [Harmon.IE](http://harmon.ie/)). ~~I will put here some screenshots soon.~~
 
-<figure class="half center">
-  <a href="/images/2012/09/sp_mmd_picker.png" class="image-popup">
-	 <img src="/images/2012/09/sp_mmd_picker.png" alt="SharePoint web UI term picker">
-   </a>
-	<figcaption>SharePoint web UI term picker</figcaption>
-</figure>
+[![SharePoint web UI term picker](sp_mmd_picker.png "SharePoint web UI term picker")](sp_mmd_picker.png)
 
-<figure class="half center">
-  <a href="/images/2012/09/word_mmd_picker.png" class="image-popup">
-	 <img src="/images/2012/09/word_mmd_picker.png" alt="MS Word term picker">
-   </a>
-	<figcaption>MS Word term picker</figcaption>
-</figure>
+[![MS Word term picker](word_mmd_picker.png "MS Word term picker")](word_mmd_picker.png)
 
-<figure class="half center">
-  <a href="/images/2012/09/harmonie_mmd_picker.png" class="image-popup">
-	 <img src="/images/2012/09/harmonie_mmd_picker.png" alt="Harmon.IE term picker">
-   </a>
-	<figcaption>Harmon.IE term picker</figcaption>
-</figure>
+[![Harmon.IE term picker](harmonie_mmd_picker.png "Harmon.IE term picker")](harmonie_mmd_picker.png)
 
-<figure class="half center">
-  <a href="/images/2012/09/term_store_management_tool.png" class="image-popup">
-	 <img src="/images/2012/09/term_store_management_tool.png" alt="SharePoint TermStore management tool">
-   </a>
-	<figcaption>SharePoint TermStore management tool (Central Administration)</figcaption>
-</figure>
+[![SharePoint TermStore management tool](term_store_management_tool.png "SharePoint TermStore management tool")](term_store_management_tool.png)
 
 Happy SharePointing!
 

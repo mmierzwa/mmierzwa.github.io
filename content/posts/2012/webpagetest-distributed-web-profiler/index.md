@@ -27,124 +27,39 @@ In [the project documentation](https://sites.google.com/a/webpagetest.org/docs/a
 
 This sounds very interesting and I think I'll investigate this in future.  
 
-<figure class="half center">
-  <a href="/images/2012/03/main_advanced_1.png" class="image-popup">
-	 <img src="/images/2012/03/main_advanced_1.png" alt="Test settings panel - basic settings">
-   </a>
-	<figcaption>Test settings panel - basic settings</figcaption>
-</figure>
+[![Test settings panel - basic settings](main_advanced_1.png "Test settings panel - basic settings")](main_advanced_1.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/main_advanced_2.png" class="image-popup">
-	 <img src="/images/2012/03/main_advanced_2.png" alt="Test settings panel - advanced settings">
-   </a>
-	<figcaption>Test settings panel - advanced settings. Here you can set for example tcpdump capturing</figcaption>
-</figure>
+[![Test settings panel - advanced settings](main_advanced_2.png "Test settings panel - advanced settings")](main_advanced_2.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/main_advanced_3.png" class="image-popup">
-	 <img src="/images/2012/03/main_advanced_3.png" alt="Test settings panel - video capture for page rendering">
-   </a>
-	<figcaption>Test settings panel - video capture for page rendering</figcaption>
-</figure>
+[![Test settings panel - video capture for page rendering](main_advanced_3.png "Test settings panel - video capture for page rendering")](main_advanced_3.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_overview.png" class="image-popup">
-	 <img src="/images/2012/03/result_overview.png" alt="Test results - summary for all test runs in test set">
-   </a>
-	<figcaption>Test results - summary for all test runs in test set</figcaption>
-</figure>
+[![Test results - summary for all test runs in test set](result_overview.png "Test results - summary for all test runs in test set")](result_overview.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_details_1.png" class="image-popup">
-	 <img src="/images/2012/03/result_details_1.png" alt="Test results details - waterfall view">
-   </a>
-	<figcaption>Test results details - waterfall view</figcaption>
-</figure>
+[![Test results details - waterfall view](result_details_1.png "Test results details - waterfall view")](result_details_1.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_details_2.png" class="image-popup">
-	 <img src="/images/2012/03/result_details_2.png" alt="Test results details - connection timings view">
-   </a>
-	<figcaption>Test results details - connection timings view</figcaption>
-</figure>
+[![Test results details - connection timings view](result_details_2.png "Test results details - connection timings view")](result_details_2.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_details_3.png" class="image-popup">
-	 <img src="/images/2012/03/result_details_3.png" alt="Test results details - requests details">
-   </a>
-	<figcaption>Test results details - requests details (times for DNS lookup, connection etc.)</figcaption>
-</figure>
+[![Test results details - requests details](result_details_3.png "Test results details - requests details")](result_details_3.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_performance_review_1.png" class="image-popup">
-	 <img src="/images/2012/03/result_performance_review_1.png" alt="Test results - performance review checklist">
-   </a>
-	<figcaption>Test results - performance review checklist</figcaption>
-</figure>
+[![Test results - performance review checklist](result_performance_review_1.png "Test results - performance review checklist")](result_performance_review_1.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_performance_review_2.png" class="image-popup">
-	 <img src="/images/2012/03/result_performance_review_2.png" alt="Test results - performance review with scoring">
-   </a>
-	<figcaption>Test results - performance review with scoring (by defined rules)</figcaption>
-</figure>
+[![Test results - performance review with scoring](result_performance_review_2.png "Test results - performance review with scoring")](result_performance_review_2.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_performance_review_3.png" class="image-popup">
-	 <img src="/images/2012/03/result_performance_review_3.png" alt="Test results - performance review glossary">
-   </a>
-	<figcaption>Test results - performance review glossary. Each rule used for performance scoring is explained</figcaption>
-</figure>
+[![Test results - performance review glossary](result_performance_review_3.png "Test results - performance review glossary")](result_performance_review_3.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_pagespeed.png" class="image-popup">
-	 <img src="/images/2012/03/result_pagespeed.png" alt="Test results - Page Speed optimization check">
-   </a>
-	<figcaption>Test results - Page Speed optimization check. This one is based on [PageSpeed](http://code.google.com/intl/pl/speed/page-speed/) rules</figcaption>
-</figure>
+[![Test results - Page Speed optimization check](result_pagespeed.png "Test results - Page Speed optimization check")](result_pagespeed.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_content_breakdown_1.png" class="image-popup">
-	 <img src="/images/2012/03/result_content_breakdown_1.png" alt="Test results - content breakdown charts for the first page load">
-   </a>
-	<figcaption>Test results - content breakdown charts for the first page load</figcaption>
-</figure>
+[![Test results - content breakdown charts for the first page load](result_content_breakdown_1.png "Test results - content breakdown charts for the first page load")](result_content_breakdown_1.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_content_breakdown_2.png" class="image-popup">
-	 <img src="/images/2012/03/result_content_breakdown_2.png" alt="Test results - content breakdown charts for the next page load">
-   </a>
-	<figcaption>Test results - content breakdown charts for the next page load</figcaption>
-</figure>
+[![Test results - content breakdown charts for the next page load](result_content_breakdown_2.png "Test results - content breakdown charts for the next page load")](result_content_breakdown_2.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_content_breakdown_by_domain.png" class="image-popup">
-	 <img src="/images/2012/03/result_content_breakdown_by_domain.png" alt="Test results - content breakdown charts with domains specified">
-   </a>
-	<figcaption>Test results - content breakdown charts with domains specified</figcaption>
-</figure>
+[![Test results - content breakdown charts with domains specified](result_content_breakdown_by_domain.png "Test results - content breakdown charts with domains specified")](result_content_breakdown_by_domain.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_screenshots.png" class="image-popup">
-	 <img src="/images/2012/03/result_screenshots.png" alt="Test results - page screen shots for the next page loading steps">
-   </a>
-	<figcaption>Test results - page screen shots for the next page loading steps</figcaption>
-</figure>
+[![Test results - page screen shots for the next page loading steps](result_screenshots.png "Test results - page screen shots for the next page loading steps")](result_screenshots.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/result_grabvideo.png" class="image-popup">
-	 <img src="/images/2012/03/result_grabvideo.png" alt="Test results - page rendering video">
-   </a>
-	<figcaption>Test results - page rendering video</figcaption>
-</figure>
+[![Test results - page rendering video](result_grabvideo.png "Test results - page rendering video")](result_grabvideo.png)
 
-<figure class="half center">
-  <a href="/images/2012/03/test_history.png" class="image-popup">
-	 <img src="/images/2012/03/test_history.png" alt="Test results history. You can compare the results of multiple tests here">
-   </a>
-	<figcaption>Test results history. You can compare the results of multiple tests here</figcaption>
-</figure>
+[![Test results history. You can compare the results of multiple tests here](test_history.png "Test results history. You can compare the results of multiple tests here")](test_history.png)
 
 Have a nice profiling with WebPageTest!
 

@@ -22,12 +22,7 @@ So, from the KeyChain perspective, the unsigned app deployed to simulator simply
 
 The solution is fairly simple. In your iOS project settings, `iOS Bundle Signing` select `Debug|iPhoneSimulator` configuration and set `Provisioning Profile` to the same which you are using for the device (**not** the Automatic!):
 
-<figure class="half center">
-  <a href="/images/2017/03/setting-provisioning-profile.png" class="image-popup">
-	 <img src="/images/2017/03/setting-provisioning-profile.png" alt="How to configure provisioning profile">
-   </a>
-	<figcaption>Xamarin Studio project settings - iOS Bundle Signing</figcaption>
-</figure>
+[![How to configure provisioning profile](setting-provisioning-profile.png "How to configure provisioning profile")](setting-provisioning-profile.png)
 
 If you installed the unsigned package on the simulator before setting this up remember to uninstall it explicitly. Then install the signed package. Simple update from IDE won't work in this case. Thankfully this is a one time operation.
 

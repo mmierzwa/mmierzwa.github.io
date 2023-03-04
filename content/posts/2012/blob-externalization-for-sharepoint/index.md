@@ -16,31 +16,16 @@ I had chance to work with trial Enterprise 3.2.0.17 version of this product (wit
 
 Metalogix StoragePoint is a content externalization solution for SharePoint that works on both EBS (External BLOB Storage) and RBS (Remote BLOB Storage) levels. The first one is an option for SQL pre-2008R2 backend and also adds some features (higher granularity of externalization scopes such as site collections or lists). RBS came up with SQL 2008R2, so this kind of integration works well with SP2010. StoragePoint installation requires additional DB in SQL in order to maintain mappings between SharePoint items and target BLOBs location (and for its internal configuration).
 
-<figure class="half center">
-  <a href="/images/2012/03/admin_3_endpoints.png" class="image-popup">
-	 <img src="/images/2012/03/admin_3_endpoints.png" alt="Storage endpoints management">
-   </a>
-	<figcaption></figcaption>
-</figure>
+[![Storage endpoints management](admin_3_endpoints.png "Storage endpoints management")](admin_3_endpoints.png)
 
 Target storage is defined as Endpoint. For each Endpoint SP administrator defines storage type (like file system or cloud), storage specific configuration (i.e. UNC path, credentials) and choose if the synchronization will be performed synchronously or asynchronously. Generally operations (endpoint selection and writing the BLOB) performed synchronously are blocking the user control while asynchronous operations use timer job (BLOB Migration Agent) with cache (a special additionally configured endpoint) in order to behave like the name suggests.  
 Also additional rules can be applied here - how big must be the attachment to be stored externally, when the endpoint should be treated as offline, warning notifications, compression, encryption (128-bit AES) etc.  
 
-<figure class="half center">
-  <a href="/images/2012/03/admin_2_profiles.png" class="image-popup">
-	 <img src="/images/2012/03/admin_2_profiles.png" alt="Storage profiles management">
-   </a>
-	<figcaption>Storage profiles management</figcaption>
-</figure>
+[![Storage profiles management](admin_2_profiles.png "Storage profiles management")](admin_2_profiles.png)
 
 Externalization configurations are grouped into profiles. Each profile defines a scope (web application, content db, site collection or lower), one or more endpoints and additional externalization rules. Despite the fact that more than one endpoint can be defined in profile only one will be used for storing the particular BLOB.  
 
-<figure class="half center">
-  <a href="/images/2012/03/admin_1_central_admin_view.png" class="image-popup">
-	 <img src="/images/2012/03/admin_1_central_admin_view.png" alt="Central administration integration">
-   </a>
-	<figcaption>Central administration integration</figcaption>
-</figure>
+[![Central administration integration](admin_1_central_admin_view.png "Central administration integration")](admin_1_central_admin_view.png)
 
 StoragePoint integrates its admin pages with central administration so all this configuration and operations can be performed in SharePoint in one place.  
 
@@ -54,12 +39,7 @@ Rules that can be defined in storage profile in order to choose the right target
 
 StoragePoint allows also to create additional rules for BLOB archiving (scheduled). It includes: item modification/creation date, related meta-data modification date, file (attachment) modification date and version retention.  
 
-<figure class="half center">
-  <a href="/images/2012/03/admin_3_jobs_status.png" class="image-popup">
-	 <img src="/images/2012/03/admin_3_jobs_status.png" alt="StoragePoint jobs management">
-   </a>
-	<figcaption>StoragePoint jobs management</figcaption>
-</figure>
+[![StoragePoint jobs management](admin_3_jobs_status.png "StoragePoint jobs management")](admin_3_jobs_status.png)
 
 Target storages are monitored by a SharePoint job. E-mail notifications with warnings can be setup when total BLOBs size exceeds the limit defined for particular endpoint. Orphaned BLOBs (files with deleted SharePoint items) are also cleaned up by separate scheduled job (it's the standard RBS/EBS approach recommended by MS). In cases where StoragePoint is being installed on existing SharePoint farm and externalization is setup for existing data the BLOBs can be externalized in the same scheduled manner as well as migrating the files back to contend db. Migration of the content between endpoints is also supported.  
 

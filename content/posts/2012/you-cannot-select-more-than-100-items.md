@@ -9,11 +9,7 @@ title: '"You cannot select more than 100 items at once" in SharePoint 2010'
 
 Looking for some solution for batch items update I've run into the following problem: when I clicked a checkbox in top right corner of the list (actually a document library) "All Items" view, the browser displayed an error: `You cannot select more than 100 items at once.`
 
-<figure class="half center">
-  <a href="/images/2012/03/items_selection_limit_error.png" class="image-popup">
-	 <img src="/images/2012/03/items_selection_limit_error.png" alt="Items selection limit - error message">
-   </a>
-</figure>
+[![Items selection limit - error message](items_selection_limit_error.png "Items selection limit - error message")](items_selection_limit_error.png)
 
 The problem was discussed on the TechNet forum ([Selecting more than 100 files in Document Library](http://social.technet.microsoft.com/Forums/en-US/sharepoint2010general/thread/9c99cc7e-68d0-43f6-bd7b-ca5b54f2d5bf)) and the limit of maximum 100 items per one batch update (like check-in, delete etc.) is described [on MSDN](http://technet.microsoft.com/en-us/library/cc262787.aspx#ListLibrary):  
 
@@ -64,11 +60,7 @@ You will find a similar code checking if the limits are also preserved when user
 The second interesting thing is that the number of items is checked only on client side, so if you change `g_MaximumSelectedItemsAllowed` value to, let say 200, you will be able to make a batch update for more items than the official limit allows.  
 I've managed to change this by IE developers toolbar for 200 items:  
 
-<figure class="half center">
-  <a href="/images/2012/03/maximum_selected_items_limit_overwrite_3.png" class="image-popup">
-	 <img src="/images/2012/03/maximum_selected_items_limit_overwrite_3.png" alt="Maximum selected items limit overwrite">
-   </a>
-</figure>
+[![Maximum selected items limit overwrite](maximum_selected_items_limit_overwrite_3.png "Maximum selected items limit overwrite")](maximum_selected_items_limit_overwrite_3.png)
 
 Of course if you want to change this permanently (probably with changing the message string `L_BulkSelection_TooManyItems` also to not confuse users) you still will have to develop some more persistent solution - i.e. deploy your custom script into `Layouts` folder, link it on selected pages and so on. The code would look like this (I assume you have jQuery included):  
 

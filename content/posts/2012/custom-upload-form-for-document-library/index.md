@@ -42,12 +42,7 @@ will not change the upload page. Both methods still works for regular list or CT
 
 This may sound obvious for experienced SharePoint developers, but it was not for me. When I understood this I've started looking for methods of changing upload links (marked on picture below) both in ribbon and in default list view.
 
-<figure class="half center">
-  <a href="/images/2012/01/custom_library.png" class="image-popup">
-	 <img src="/images/2012/01/custom_library.png" alt="Custom Documents Library">
-   </a>
-	<figcaption>Custom Documents Library</figcaption>
-</figure>
+[![Custom Documents Library](custom_library.png "Custom Documents Library")](custom_library.png)
 
 The first one - ribbon button - looks fairly simple. I left it for future development after finding some articles describing [creation of Custom Action](http://www.sharepointnutsandbolts.com/2010/01/customizing-ribbon-part-1-creating-tabs.html) and [hiding the existing buttons](http://msdn.microsoft.com/en-us/library/ff408060.aspx). Of course finally I will have to do this.
 
@@ -167,28 +162,13 @@ in a mapped VS solution folder (which will overwrite only the "Freeform" templat
 
 Here is a sample Visual Studio 2010 solution structure:
 
-<figure class="half center">
-  <a href="/images/2012/01/vs_solution_for_upload.png" class="image-popup">
-	 <img src="/images/2012/01/vs_solution_for_upload.png" alt="VS Solution">
-   </a>
-	<figcaption>Visual Studio solution structure</figcaption>
-</figure>
+[![VS Solution](vs_solution_for_upload.png "VS Solution")](vs_solution_for_upload.png)
 
 The results (with Telerik Silverlight upload component) are shown below:
 
-<figure class="half center">
-  <a href="/images/2012/01/custom_upload_1.png" class="image-popup">
-	 <img src="/images/2012/01/custom_upload_1.png" alt="Custom upload solution (1)">
-   </a>
-	<figcaption>Custom upload solution (1)</figcaption>
-</figure>
+[![Custom upload solution (1)](custom_upload_1.png "Custom upload solution (1)")](custom_upload_1.png)
 
-<figure class="half center">
-  <a href="/images/2012/01/custom_upload_2.png" class="image-popup">
-	 <img src="/images/2012/01/custom_upload_1.png" alt="Custom upload solution (2)">
-   </a>
-	<figcaption>Custom upload solution (2)</figcaption>
-</figure>
+[![Custom upload solution (2)](custom_upload_2.png "Custom upload solution (2)")](custom_upload_2.png)
 
 This satisfies all my requirements: it's a full programmatic server side solution, it does not require any javascript tricks (high risk that in next version of SP will not work, when for example the css style names will change), it can be applied selectively to specific Document Libraries based on custom list templates (no need to change the default behavior on entire WFE) and it is simple.
 

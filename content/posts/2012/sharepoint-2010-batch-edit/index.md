@@ -13,25 +13,14 @@ As the name suggests, SharePoint 2010 Batch Edit fills the gap in mass updates f
 
 The feature works quite intuitively. After installation from PowerShell (or stsadm) and activation in administration central you will see a new button in items ribbon. When you select more than one item on list the button is enabled and after click you will see a dialog box with a form that allows you update your items.  
 
-<figure class="half center">
-  <a href="/images/2012/04/single_file_selected.png" class="image-popup">
-	 <img src="/images/2012/04/single_file_selected.png">
-   </a>
-</figure>
+[![file selection](single_file_selected.png "File selection")](single_file_selected.png)
 
-<figure class="half center">
-  <a href="/images/2012/04/multiple_files_selected.png" class="image-popup">
-	 <img src="/images/2012/04/multiple_files_selected.png">
-   </a>
-</figure>
+[![file multi-selection](multiple_files_selected.png "File selection (multiple files)")](multiple_files_selectedtom_library.png)
+
 
 I've tested Batch Edit with some basic field types added to lists content type: text, date, user, managed meta-data (MMD) and single value lookup. I haven't experienced any problems with updating values of those types. There are two MMD fields update modes for multi-value fields: overwrite and append, which is quite useful (you can turn on the append mode with check-box on the top of the update form). I had a problem with updating multi-value lookup field - the field control was displayed correctly in form but no changes were applied on update.  
 
-<figure class="half center">
-  <a href="/images/2012/04/batch_update_simple.png" class="image-popup">
-	 <img src="/images/2012/04/batch_update_simple.png">
-   </a>
-</figure>
+[![Batch update](batch_update_simple.png "Batch Edit")](batch_update_simple.png)
 
 One thing could be confusing at first time. When you are looking for some field that is displayed in edit form for single item it will happen sometimes that it is not available for editing in batch mode. The good example is a standard field - Title in document libraries. The reason of this behavior is that the field must marked as `ShowInNewForm` and `ShowInEdit` form (these conditions are not meet for the Title field in doc. library). When you will dig into the [code](http://sp2010batchedit.codeplex.com/SourceControl/changeset) (`TamTam.SP2010.BatchEdit.Layouts.TamTam.SP2010.BatchEdit.BatchEdit` class) you will find out that also other field types are excluded - computed, file, integer and secondary lookup ([SPField.CanBeDisplayedInEditForm](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.spfield.canbedisplayedineditform.aspx) - will return false for them).  
 
