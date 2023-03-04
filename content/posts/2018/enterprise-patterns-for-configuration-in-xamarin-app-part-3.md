@@ -13,12 +13,12 @@ It's very common to have multiple versions of the app during development - i.e. 
 
 Publishing app to App Store or Google Play developers often forget that the mobile application is running de facto in hostile environment. Advanced user can easily reverse engineer the installed package on rooted/jailbroken device or even an emulator and see the data that wasn't supposed to be released on production. As you will see this is just a different aspect of the multi-version app config.
 
-This article is a continuation of [previous]({% post_url 2017/2017-12-02-enterprise-patterns-for-configuration-in-xamarin-app-part-1 %}) [posts]({% post_url 2017/2017-12-06-enterprise-patterns-for-configuration-in-xamarin-app-part-2 %}). If you haven't read those I strongly recommend doing it now since I'll refer to them here.
+This article is a continuation of [previous](/posts/2017/enterprise-patterns-for-configuration-in-xamarin-app-part-1) [posts](/posts/2017/enterprise-patterns-for-configuration-in-xamarin-app-part-2). If you haven't read those I strongly recommend doing it now since I'll refer to them here.
 
 
 ## Environments, versions, configurations
 
-Most of the time I'm developing Xamarin apps (and other types as well) in IDE I do it in `Debug` config. This build is usually setup to produce full PDBs with no linking. Like I wrote in [the first part]({% post_url 2017/2017-12-02-enterprise-patterns-for-configuration-in-xamarin-app-part-1 %}) of this series I usually add a compilation symbols that indicates i.e. offline app behaviour.
+Most of the time I'm developing Xamarin apps (and other types as well) in IDE I do it in `Debug` config. This build is usually setup to produce full PDBs with no linking. Like I wrote in [the first part](/posts/2017/enterprise-patterns-for-configuration-in-xamarin-app-part-1) of this series I usually add a compilation symbols that indicates i.e. offline app behaviour.
 
 Nevertheless, `Debug` configuration is obviously not the best option for distribution and manual QA tests. I won't go into much detail about versioning strategy in mobile app development. This topic will be covered in the next series about continuous integration and delivery.
 
@@ -59,9 +59,9 @@ public static class ApplicationConfiguration
 }
 ```
 
-This might the right approach for one to few such settings. But soon, when the number of settings increases you will end up with the same issues like I described in [my previous post]({% post_url 2017/2017-12-06-enterprise-patterns-for-configuration-in-xamarin-app-part-2 %}) when discussing the DI modules registration. Furthermore, using static configuration creates a strong coupling between your services and configuration itself.
+This might the right approach for one to few such settings. But soon, when the number of settings increases you will end up with the same issues like I described in [my previous post](/posts/2017/2enterprise-patterns-for-configuration-in-xamarin-app-part-2) when discussing the DI modules registration. Furthermore, using static configuration creates a strong coupling between your services and configuration itself.
 
-In the same way as for service configuration [pictured in the previous article]({% post_url 2017/2017-12-06-enterprise-patterns-for-configuration-in-xamarin-app-part-2 %}) [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control) principle comes to rescue. You can design your app configuration in the same manner as the services:
+In the same way as for service configuration [pictured in the previous article](/posts/2017/enterprise-patterns-for-configuration-in-xamarin-app-part-2) [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control) principle comes to rescue. You can design your app configuration in the same manner as the services:
 
 ```csharp
 public interface IApplicationConfiguration
@@ -126,7 +126,7 @@ It's not very pretty but it does its job. We can improve it further.
 
 ## But what about data?
 
-Before I show you the second approach let's think about the different problem for a while. Remember when I showed [the strategies of mocking the data for development]({% post_url 2017/2017-12-02-enterprise-patterns-for-configuration-in-xamarin-app-part-1 %})? My preferred way for doing it is adding embedded resource files into the common PCL/netstandard project and reading them on demand. Such files might potentially contain much more sensitive data than your test endpoint URLs. But JSON files cannot have conditional compilation included inside the file.
+Before I show you the second approach let's think about the different problem for a while. Remember when I showed [the strategies of mocking the data for development](/posts/2017/enterprise-patterns-for-configuration-in-xamarin-app-part-1)? My preferred way for doing it is adding embedded resource files into the common PCL/netstandard project and reading them on demand. Such files might potentially contain much more sensitive data than your test endpoint URLs. But JSON files cannot have conditional compilation included inside the file.
 
 The solution for this problem, which can be also applied for regular C\# code files, is to use the conditional **inclusion** into the project file:
 

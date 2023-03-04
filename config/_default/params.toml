@@ -46,7 +46,7 @@ googleAnalytics = "AW-817647716"
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
   showComments = true
@@ -55,7 +55,7 @@ googleAnalytics = "AW-817647716"
 [list]
   showBreadcrumbs = false
   showSummary = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = true
   groupByYear = false
   paginationWidth = 1
