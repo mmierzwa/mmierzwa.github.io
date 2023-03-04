@@ -15,3 +15,7 @@ summaryLength = 20
 [permalinks]
   pages = "/:slug/"
   posts = "/blog/:filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
