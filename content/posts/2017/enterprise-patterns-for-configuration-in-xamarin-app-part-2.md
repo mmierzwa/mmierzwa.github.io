@@ -9,14 +9,14 @@ tags:
 title: 'Enterprise patterns for configuration in Xamarin app. Part 2: Managing dependencies'
 ---
 
-In [last post](/posts/enterprise-patterns-for-configuration-in-xamarin-app-part-1) I described how to cope, in some extent, with different pace of delivering mobile app versus it's supporting backend. The article also provided a simple hint for speeding up the mobile app development by introducing mocks instead of the external network services.
+In [last post](/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1) I described how to cope, in some extent, with different pace of delivering mobile app versus it's supporting backend. The article also provided a simple hint for speeding up the mobile app development by introducing mocks instead of the external network services.
 
 In this one I'm gonna give you some advice on managing the dependencies as your app gets more of them in time.
 
 
 ## Managing mocks
 
-Let's take a look at the example of registering dependencies from the [previous post](/posts/enterprise-patterns-for-configuration-in-xamarin-app-part-1):
+Let's take a look at the example of registering dependencies from the [previous post](/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1):
 
 ```csharp
 public void RegisterDependencies(Autofac.ContainerBuilder builder)

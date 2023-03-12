@@ -9,7 +9,7 @@ title: SharePoint Taxonomies - Committing large amount of data to the MMD servic
 
 Once again about the SharePoint 2010 taxonomy service.  
 
-As I wrote in my previous posts, loading data into MMD service automatically can be quite a challenge. First, you must [remember about illegal characters in terms labels](/posts/sharepoint-taxonomies-labels-with). Second, you must [trace duplicates across sibling nodes](/posts/sharepoint-taxonomies-struggling-with) in taxonomy trees. And this could not be the end of your problems especially if you plan to load some more data at one time.  
+As I wrote in my previous posts, loading data into MMD service automatically can be quite a challenge. First, you must [remember about illegal characters in terms labels](/blog/sharepoint-taxonomies-labels-with). Second, you must [trace duplicates across sibling nodes](/blog/sharepoint-taxonomies-struggling-with) in taxonomy trees. And this could not be the end of your problems especially if you plan to load some more data at one time.  
 
 Since MMD service is transactional you must first perform the [commit](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.termstore.commitall.aspx) operation in order to see your changes in MMD picker. From the programmatic point of view MMD service is a classic WCF service with http/https endpoints and [client proxy](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.taxonomysession.aspx) which is used in daily SharePoint development.  
 

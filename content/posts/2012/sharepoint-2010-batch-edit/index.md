@@ -30,7 +30,7 @@ For lists with versioning turned on the update will cause check-out and check-in
 
 I have noticed also a few minor issues using the Batch Edit, mostly in usability area. The first was loosing the focus (checked check-boxes) from previously selected list items after update. This could be annoying for someone that is trying to perform more than one batch update for the same set of elements on the list. For long-time operations (mass updates can take some time) the update form seems to be unresponsive. There should be some progress indicator that will inform the user that update is being performed. Also disabling the update and cancel button in such cases would be a nice thing. The last little bug I've found is that Batch Edit ignores "Launch forms in dialog" option set false (it's a setting that you can change for the list). The update form is also displayed in dialog box.  
 
-PS: If you faced with the problem of updating more than 100 items at once, read my previous post - ["You cannot select more than 100 items at once" in SharePoint 2010](/posts/you-cannot-select-more-than-100-items).  
+PS: If you faced with the problem of updating more than 100 items at once, read my previous post - ["You cannot select more than 100 items at once" in SharePoint 2010](/blog/you-cannot-select-more-than-100-items).  
 
 Happy SharePointing!
 
