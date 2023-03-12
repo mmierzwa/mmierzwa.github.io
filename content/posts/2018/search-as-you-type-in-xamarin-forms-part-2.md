@@ -8,11 +8,11 @@ tags:
 title: Search as you type in Xamarin.Forms - the Reactive Extensions way
 ---
 
-In [my previous post](/posts/2018/search-as-you-type-in-xamarin-forms) I showed how to introduce search as type behavior into Xamarin.Forms app with standard [Forms Behaviors](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/).
+In [my previous post](/posts/search-as-you-type-in-xamarin-forms) I showed how to introduce search as type behavior into Xamarin.Forms app with standard [Forms Behaviors](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/).
 
 Let's see how to do it in other, more declarative and configurable manner, using [Reactive Extensions (Rx)](https://github.com/dotnet/reactive) instead of `Task` and `CancellationTokenSource`.
 
-To keep the code as short as possible I'll further assume that you have read the [previous article](/posts/2018/search-as-you-type-in-xamarin-forms) and have it opened as a reference. The implementation uses the same Forms `Behavior` as the previous one did, but the delay between search phrase changes and running the search will be handled differently.
+To keep the code as short as possible I'll further assume that you have read the [previous article](/posts/search-as-you-type-in-xamarin-forms) and have it opened as a reference. The implementation uses the same Forms `Behavior` as the previous one did, but the delay between search phrase changes and running the search will be handled differently.
 
 With Reactive Extensions (Rx) you don't handle the events directly. Instead, you are using an [observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern) with Rx [Observable](http://reactivex.io/documentation/observable.html) object. This object is responsible for watching the source changes and reacting in a defined way.
 

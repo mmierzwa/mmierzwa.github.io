@@ -55,7 +55,7 @@ public class MockBackendService
 
 Now we have two `IMyBackendService` service implementations. First one provides the real data from the backend, using HTTP transport under the hood. Second returns the mocked data. `MockBackendService` could also retrieve the mocked values from the resource file (i.e. as JSON [embedded assembly resource](https://support.microsoft.com/en-us/help/319292/how-to-embed-and-access-resources-by-using-visual-c)) making it easier to store and update.
 
-Sometimes it's worth to consider providing the mocked data on the [`HttpClientHandler`](https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler)/[`HttpMessageHandler`](https://msdn.microsoft.com/en-us/library/system.net.http.httpmessagehandler) level. If you are interested how to do this for [Simple.OData](https://github.com/object/Simple.OData.Client) client I encourage you to read my previous post on this topic - ["Mocking HTTP response in Simple.OData client"](/posts/2017/mocking-http-response-in-simple-odata-client).
+Sometimes it's worth to consider providing the mocked data on the [`HttpClientHandler`](https://msdn.microsoft.com/en-us/library/system.net.http.httpclienthandler)/[`HttpMessageHandler`](https://msdn.microsoft.com/en-us/library/system.net.http.httpmessagehandler) level. If you are interested how to do this for [Simple.OData](https://github.com/object/Simple.OData.Client) client I encourage you to read my previous post on this topic - ["Mocking HTTP response in Simple.OData client"](/posts/mocking-http-response-in-simple-odata-client).
 
 ## Dependency registration
 

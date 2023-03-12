@@ -124,6 +124,6 @@ Since it defines `ICommand` as a bindable property it can be binded in standard 
 
 You can also specify `MinimumSearchIntervalMiliseconds` to decide how long should be the delay between searches.
 
-[In next post](/posts/2018/search-as-you-type-in-xamarin-forms-part-2), I'll show you how to implement this behavior even simpler and more efficiently with [Reactive Extensions (Rx)](https://github.com/dotnet/reactive).
+[In next post](/posts/search-as-you-type-in-xamarin-forms-part-2), I'll show you how to implement this behavior even simpler and more efficiently with [Reactive Extensions (Rx)](https://github.com/dotnet/reactive).
 
 Happy coding!

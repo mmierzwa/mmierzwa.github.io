@@ -29,7 +29,7 @@ Not very informative stack trace as you see... First, this happens during the co
 
 ## Remember about default label conversions
 
-As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"](/posts/2012/sharepoint-taxonomies-labels-with), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
+As I wrote in my previous post - ["SharePoint Taxonomies - Labels with forbidden characters"](/posts/sharepoint-taxonomies-labels-with), SharePoint performs some [transformations on label strings](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.taxonomy.term.name.aspx): trim, replacing consecutive spaces into one and ampersand with its wider Unicode equivalent (\uFF06).  
 
 The result of above is that label `" black duck & goose "` and `"black duck ＆ goose"` will be treated as the same label string.  
 
