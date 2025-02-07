@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adal on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/adal/</link>
+    <description>Recent content in Adal on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Fri, 16 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/adal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cleaning ADAL token cache on Android and iOS</title>
+      <link>http://localhost:1313/blog/cleaning-adal-token-cache/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cleaning-adal-token-cache/</guid>
+      <description>&lt;p&gt;Microsoft &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory Authentication Libraries&lt;/a&gt; (ADAL) is a popular set wrapper around &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory&lt;/a&gt; API distributed in the form of platform and language specific components. It&amp;rsquo;s especially useful in multi-platform applications that integrate with various AD APIs such as Outlook or Graph API. It not only wraps the oAuth endpoints but automates the entire application flow for retrieving, refreshing and persisting tokens.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

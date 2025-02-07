@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Il on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/il/</link>
+    <description>Recent content in Il on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Thu, 18 Aug 2016 18:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/il/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Under the hood</title>
+      <link>http://localhost:1313/blog/under-the-hood/</link>
+      <pubDate>Thu, 18 Aug 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/under-the-hood/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s always good to have static code analysis in your build process. I guess no one these days argues with this statement. This usually forces developer to make conscious decisions on code-level performance, reliability, security, design etc. Few times CA warnings saved me from producing a quite nasty bugs. Sometimes however FxCop yields some really strange stuff.&lt;br&gt;&#xA;This post will describe the one I stuck with some time ago. But more interestingly it shows that sometimes .Net developer must look deep under the hood of high-level language abstraction to solve certain issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ingo Rammer - Hardcore .NET Production Debugging</title>
+      <link>http://localhost:1313/blog/ingo-rammer-hardcore-net-production/</link>
+      <pubDate>Wed, 21 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ingo-rammer-hardcore-net-production/</guid>
+      <description>&lt;p&gt;Have you ever had a problem with a user complaining on and on that when he clicks some button in your application his computer hangs but it works fine on any other machine where you have tested it? The web service is consuming all the available memory in completely indeterministic way? Or maybe your web application is magically crashing on production machine when it works in the same usage scenario on development and test environment? If not, you are probably in about 1% of the most luckiest developers in the world (or you are not the developer).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

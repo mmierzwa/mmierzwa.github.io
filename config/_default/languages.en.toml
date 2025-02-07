@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 [params]
 #  mainSections = ["section1", "section2"]
 
-[author]
+[params.author]
   name = "Marek Mierzwa"
   image = "/images/marekmierzwa_small.png"
   headline = "a human being and occasionally a software engineer"

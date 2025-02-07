@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renderers on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/renderers/</link>
+    <description>Recent content in Renderers on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/renderers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Placeholder text in Xamarin.Forms Editor</title>
+      <link>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</guid>
+      <description>&lt;p&gt;Standard Xamarin.Forms &lt;a href=&#34;https://developer.xamarin.com/api/type/Xamarin.Forms.Editor&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Xamarin.Forms.Editor control&lt;/a&gt; offers edit capabilities similar to &lt;code&gt;Entry&lt;/code&gt; but for multiline text. Unfortunately unlike &lt;code&gt;Entry&lt;/code&gt; it doesn&amp;rsquo;t support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let&amp;rsquo;s see how to do this on Android and iOS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOLID on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/solid/</link>
+    <description>Recent content in SOLID on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sun, 21 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 3: Versioning and keeping secrets secret</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-3/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-3/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s very common to have multiple versions of the app during development - i.e. stable beta and store/production or alpha that contains the latest changes. Managing application configuration for multiple versions might be confusing when it&amp;rsquo;s not carefully designed and setup with the build process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 2: Managing dependencies</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-2/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1&#34;&gt;last post&lt;/a&gt; I described how to cope, in some extent, with different pace of delivering mobile app versus it&amp;rsquo;s supporting backend. The article also provided a simple hint for speeding up the mobile app development by introducing mocks instead of the external network services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 1: Mocking external dependencies</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1/</guid>
+      <description>&lt;p&gt;Modern mobile apps are rarely developed as offline-only. They typically communicate with backend services that feed them with data, keeps in sync with their web equivalents or allows for various external integrations. The backend part is most often developed by different teams in their own pace. The mobile part can be often developed faster thus it waits for the full integration.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

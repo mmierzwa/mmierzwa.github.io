@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xamarin</title>
+      <link>http://localhost:1313/tags/xamarin/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xamarin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xamarin Forms</title>
+      <link>http://localhost:1313/tags/xamarin-forms/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xamarin-forms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ios</title>
+      <link>http://localhost:1313/tags/ios/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IoC</title>
+      <link>http://localhost:1313/tags/ioc/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ioc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOLID</title>
+      <link>http://localhost:1313/tags/solid/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xaml</title>
+      <link>http://localhost:1313/tags/xaml/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xaml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odata</title>
+      <link>http://localhost:1313/tags/odata/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/odata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unit Tests</title>
+      <link>http://localhost:1313/tags/unit-tests/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unit-tests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Renderers</title>
+      <link>http://localhost:1313/tags/renderers/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/renderers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adal</title>
+      <link>http://localhost:1313/tags/adal/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/adal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forms</title>
+      <link>http://localhost:1313/tags/forms/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/forms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mvvmcross</title>
+      <link>http://localhost:1313/tags/mvvmcross/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mvvmcross/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>.Net</title>
+      <link>http://localhost:1313/tags/.net/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/.net/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scheduling</title>
+      <link>http://localhost:1313/tags/scheduling/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scheduling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Mon, 20 Feb 2017 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>http://localhost:1313/tags/mobile/</link>
+      <pubDate>Mon, 20 Feb 2017 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Csharp</title>
+      <link>http://localhost:1313/tags/csharp/</link>
+      <pubDate>Thu, 18 Aug 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Il</title>
+      <link>http://localhost:1313/tags/il/</link>
+      <pubDate>Thu, 18 Aug 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/il/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roslyn</title>
+      <link>http://localhost:1313/tags/roslyn/</link>
+      <pubDate>Thu, 18 Aug 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/roslyn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise Search</title>
+      <link>http://localhost:1313/tags/enterprise-search/</link>
+      <pubDate>Thu, 23 Jun 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/enterprise-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>http://localhost:1313/tags/jekyll/</link>
+      <pubDate>Sun, 08 May 2016 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Studio</title>
+      <link>http://localhost:1313/tags/visual-studio/</link>
+      <pubDate>Sun, 08 May 2016 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sharepoint 2010</title>
+      <link>http://localhost:1313/tags/sharepoint-2010/</link>
+      <pubDate>Tue, 02 Oct 2012 11:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sharepoint-2010/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xml</title>
+      <link>http://localhost:1313/tags/xml/</link>
+      <pubDate>Tue, 03 Jul 2012 08:28:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>http://localhost:1313/tags/debugging/</link>
+      <pubDate>Wed, 21 Mar 2012 00:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:1313/tags/performance/</link>
+      <pubDate>Wed, 21 Mar 2012 00:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Wed, 21 Mar 2012 00:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

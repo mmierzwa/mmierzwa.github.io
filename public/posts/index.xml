@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search as you type in Xamarin.Forms - the Reactive Extensions way</title>
+      <link>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms-part-2/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/search-as-you-type-in-xamarin-forms&#34;&gt;my previous post&lt;/a&gt; I showed how to introduce search as type behavior into Xamarin.Forms app with standard &lt;a href=&#34;https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Forms Behaviors&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s see how to do it in other, more declarative and configurable manner, using &lt;a href=&#34;https://github.com/dotnet/reactive&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Reactive Extensions (Rx)&lt;/a&gt; instead of &lt;code&gt;Task&lt;/code&gt; and &lt;code&gt;CancellationTokenSource&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Implementing search as type in Xamarin.Forms search bar</title>
+      <link>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;Search as type functionality is quite often seen on the web as well as in mobile apps. Let&amp;rsquo;s see how to make it work in Xamarin.Forms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to detect screen keyboard appearance changes</title>
+      <link>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</guid>
+      <description>&lt;p&gt;Detecting on-screen keyboard toggles and proper handling of such changes can be quite tricky. Android tries to deal with those events on its own but its behavior is often far from perfect. iOS, on the other hand, leaves all the work to an app developer. Both approaches have its advantages and disadvantages but sooner or later each mobile app dev will have to face this problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting tint color in Xamarin.Form image</title>
+      <link>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s mobile apps are rarely created as text-only. Most of them needs at least in-app icons for toolbars. In many cases you can find graphics for mobile platforms as ready to use resources on the Internet, i.e. &lt;a href=&#34;https://material.io/icons/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Material Design icons&lt;/a&gt;. Sometimes they are prepared by graphic designers specially for your apps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 3: Versioning and keeping secrets secret</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-3/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-3/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s very common to have multiple versions of the app during development - i.e. stable beta and store/production or alpha that contains the latest changes. Managing application configuration for multiple versions might be confusing when it&amp;rsquo;s not carefully designed and setup with the build process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 2: Managing dependencies</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-2/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1&#34;&gt;last post&lt;/a&gt; I described how to cope, in some extent, with different pace of delivering mobile app versus it&amp;rsquo;s supporting backend. The article also provided a simple hint for speeding up the mobile app development by introducing mocks instead of the external network services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise patterns for configuration in Xamarin app. Part 1: Mocking external dependencies</title>
+      <link>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-patterns-for-configuration-in-xamarin-app-part-1/</guid>
+      <description>&lt;p&gt;Modern mobile apps are rarely developed as offline-only. They typically communicate with backend services that feed them with data, keeps in sync with their web equivalents or allows for various external integrations. The backend part is most often developed by different teams in their own pace. The mobile part can be often developed faster thus it waits for the full integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Object reference not set in Xamarin.Forms XAML compilation</title>
+      <link>http://localhost:1313/blog/object-reference-not-set-in-xamarin-forms-xaml-compilation/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/object-reference-not-set-in-xamarin-forms-xaml-compilation/</guid>
+      <description>&lt;p&gt;XAML compilation is (or at least should be) one of the default optimisation steps in Xamarin.Forms app development. It really speeds up the app especially on Android. Sometimes however it can cause some nasty errors like this one:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mocking HTTP response in Simple.OData client</title>
+      <link>http://localhost:1313/blog/mocking-http-response-in-simple-odata-client/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/mocking-http-response-in-simple-odata-client/</guid>
+      <description>&lt;p&gt;3rd party libraries never seems to be documented enough. It&amp;rsquo;s the old truth that every software developer learns sooner or later. In most cases after dozens of hours spent on trying to figure out &amp;ldquo;what the hell is wrong with my/that code!?&amp;rdquo;. This post is about one of such &amp;ldquo;hidden features&amp;rdquo; in Microsoft oData client - &lt;a href=&#34;https://github.com/object/Simple.OData.Client&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Simple.OData&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder text in Xamarin.Forms Editor</title>
+      <link>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</guid>
+      <description>&lt;p&gt;Standard Xamarin.Forms &lt;a href=&#34;https://developer.xamarin.com/api/type/Xamarin.Forms.Editor&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Xamarin.Forms.Editor control&lt;/a&gt; offers edit capabilities similar to &lt;code&gt;Entry&lt;/code&gt; but for multiline text. Unfortunately unlike &lt;code&gt;Entry&lt;/code&gt; it doesn&amp;rsquo;t support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let&amp;rsquo;s see how to do this on Android and iOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Badge icon notification in Xamarin.Forms ToolbarItems on iOS</title>
+      <link>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</guid>
+      <description>&lt;p&gt;Most of iPhone and iPad users can easily recognize icon badges - the pattern for application notifications typically presented in app icon or navigation bar. People that got used to this pattern might want to have the same user experience in their Xamarin Forms application. This post describes how to customize the navigation toolbar in iOS to dynamically display such elements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tappable label in Xamarin.Forms</title>
+      <link>http://localhost:1313/blog/tappable-label-in-xamarin-forms/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tappable-label-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;Adding tap/click handling to Xamarin.Forms Label is fairly easy. You can do it both in XAML or code behind using &lt;code&gt;GesureRecognizers&lt;/code&gt; collection like it is &lt;a href=&#34;https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/gestures/tap/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;described in this recipe&lt;/a&gt;. Unfortunately if you plan to use this solution intensively in your app it will add quite a lot of repeatable code for setting up those handlers (especially in XAML)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cleaning ADAL token cache on Android and iOS</title>
+      <link>http://localhost:1313/blog/cleaning-adal-token-cache/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cleaning-adal-token-cache/</guid>
+      <description>&lt;p&gt;Microsoft &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory Authentication Libraries&lt;/a&gt; (ADAL) is a popular set wrapper around &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory&lt;/a&gt; API distributed in the form of platform and language specific components. It&amp;rsquo;s especially useful in multi-platform applications that integrate with various AD APIs such as Outlook or Graph API. It not only wraps the oAuth endpoints but automates the entire application flow for retrieving, refreshing and persisting tokens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disabled button style on iOS in Xamarin.Forms</title>
+      <link>http://localhost:1313/blog/disabled-button-style-on-ios-in-xamarin-forms/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/disabled-button-style-on-ios-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;All the credits for solution described in this post goes &lt;a href=&#34;https://www.facebook.com/qbus00&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;my friend qbus&lt;/a&gt;. He saved few hours of my life and my sanity ;-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ModernHttpClient and &#39;Type HttpClientHandler defined in unreferenced assembly&#39; error</title>
+      <link>http://localhost:1313/blog/cannot-find-referenced-system-net-http-httpclienthandler/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cannot-find-referenced-system-net-http-httpclienthandler/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/paulcbetts/ModernHttpClient&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;ModernHttpClient&lt;/a&gt; is a great wrapper around native HTTP clients offered by Xamarin. It wraps &lt;code&gt;NSURLSession&lt;/code&gt; on iOS and &lt;code&gt;OkHttp&lt;/code&gt; on Android. As it deals pretty well with SSL/TLS stack (especially in uncommon scenarios) it&amp;rsquo;s often used instead of built-in types. I switched to &lt;code&gt;ModernHttpClient&lt;/code&gt; because of  weird errors on connections to the preproduction environment in Android.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to setup Ninject as the default DI container in MvvmCross?</title>
+      <link>http://localhost:1313/blog/how-to-setup-ninject-as-the-default-di-container-in-mvvmcross/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-to-setup-ninject-as-the-default-di-container-in-mvvmcross/</guid>
+      <description>&lt;p&gt;When you build a multi-platform application in .NET, especially for the mobile, you typically choose between two approaches. One is to code the shared UI layer commonly with Xamarin.Forms (you will still need to have some parts to be placed in platform projects, like custom renderers or providers). The second is to put the entire UI code in platform-specific projects. In this approach you can use the full power of each platform features (like fragments on Android). Both solutions allow for sharing common business logic between all the platforms. On the other hand full implementation of MVVM pattern in the second approach can be tricky and time consuming. The solution is to use 3rd party library; and here comes the MvvmCross. It covers many more areas than the pure MVVM pattern:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error executing task BuildApk: packaged_resources does not exist</title>
+      <link>http://localhost:1313/blog/error-executing-task-buildapk-packaged-resources-does-not-exist/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/error-executing-task-buildapk-packaged-resources-does-not-exist/</guid>
+      <description>&lt;p&gt;Have you ever encountered an error: &lt;code&gt;Error executing task BuildApk: .../bin/packaged_resources does not exist&lt;/code&gt;? If so you probably know that solving this issue can be sometimes quite tricky. It may be hard to track when and where the true bug was introduced in the code base. Although some suggestions can be &lt;a href=&#34;https://forums.xamarin.com/discussion/63356/the-file-obj-debug-android-bin-packaged-resources-does-not-exist&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;found on the Xamarin Forum&lt;/a&gt; the solution usually differ case by case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AppCompat support in MVVMCross Android splash screen</title>
+      <link>http://localhost:1313/blog/appcompat-support-in-mvvmcross-android-splash-screen/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/appcompat-support-in-mvvmcross-android-splash-screen/</guid>
+      <description>&lt;p&gt;As it&amp;rsquo;s mentioned in &lt;a href=&#34;https://www.mvvmcross.com/documentation/fundamentals/navigation/navigation.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;MVVMCross documentation&lt;/a&gt; Android is quite specific in terms of navigation requirements. The entry point is statically indicated by &lt;code&gt;MainLauncher = true&lt;/code&gt; attribute parameter on the activity. On rest of the platforms, specifically on iOS, this can be done dynamically by implementing &lt;code&gt;IMvxAppStart&lt;/code&gt; class for registration in &lt;code&gt;MvxApplication.Initialize()&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scheduling in ASP.NET Core with Quartz.NET</title>
+      <link>http://localhost:1313/blog/scheduling-in-asp-net-core-with-quartz-net/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/scheduling-in-asp-net-core-with-quartz-net/</guid>
+      <description>&lt;p&gt;Running certain tasks in a scheduled manner may be an easy solution for many problems. One might be refreshing the application cache when the data needs to be fresh and warm no matter what the actual traffic is. Other could be the synchronization or periodical clean-up. There are obviously few good architectural patterns to do it in more elegant and efficient way - distributed queues, publish-subscribe models, enterprise service buses etc. But the simplicity of scheduling still might be an important decision variable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xamarin.Android - Failure INSTALL_PARSE_FAILED_MANIFEST_MALFORMED</title>
+      <link>http://localhost:1313/blog/xamarin-android-failure-install-parse-failed-manifest-malformed/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/xamarin-android-failure-install-parse-failed-manifest-malformed/</guid>
+      <description>&lt;p&gt;An error &lt;code&gt;Failure INSTALL_PARSE_FAILED_MANIFEST_MALFORMED&lt;/code&gt; appears from &lt;a href=&#34;http://stackoverflow.com/questions/37066617/failure-install-parse-failed-manifest-malformed&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;time to time&lt;/a&gt; in world of Android Java developers. However among Xamarin devs it seems to appear much rarely. Today I came across one and the standard Android solution did not work for me. Curious about the solution I found (&lt;a href=&#34;https://www.youtube.com/watch?v=nCrlyX6XbTU&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;with a little help of my friends&lt;/a&gt;)?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AAPT: Unknown option &#39;--no-version-vectors&#39;</title>
+      <link>http://localhost:1313/blog/aapt-unknown-option-no-version-vectors/</link>
+      <pubDate>Tue, 04 Apr 2017 22:56:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/aapt-unknown-option-no-version-vectors/</guid>
+      <description>&lt;p&gt;If you ever encountered the error &lt;code&gt;AAPT: Unknown option &#39;--no-version-vectors&#39;&lt;/code&gt; during the Xamarin build you probably found &lt;a href=&#34;https://forums.xamarin.com/discussion/63482/aapt-error-unknown-option-no-version-vectors&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;this page&lt;/a&gt; looking for a solution. Like I did. Then you probably first tried setting &lt;code&gt;AndroidSdkBuildToolsVersion&lt;/code&gt; to the latest you have. Just like me. Or uninstall all the older versions. If this didn&amp;rsquo;t work (like in my case) stay with me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why ADAL does not persist user credentials on iOS simulator?</title>
+      <link>http://localhost:1313/blog/non-persistent-keychain-on-ios-simulator/</link>
+      <pubDate>Mon, 20 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/non-persistent-keychain-on-ios-simulator/</guid>
+      <description>&lt;p&gt;If you are using Azure Active Directory services you probably at least considered using &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;ADAL&lt;/a&gt; as a client library in you application. It&amp;rsquo;s easy to setup, use and it offers a unified API across the most popular platforms - iOS, Android, UWP, web - both .Net and native. Unfortunately sometimes things just does not work out of the box without deeper understanding how some features are implemented. This post is about one of them - credentials cache persistency on iOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why does MVVMCross view model initialize twice on iOS?</title>
+      <link>http://localhost:1313/blog/why-mvvmcross-vm-init-twice-on-ios/</link>
+      <pubDate>Thu, 16 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-mvvmcross-vm-init-twice-on-ios/</guid>
+      <description>&lt;p&gt;Working on a bug fix in MVVMCross-based mobile application I noticed a strange behavior. The navigation to other view model I put in &lt;code&gt;async Init&amp;lt;TInit&amp;gt;(TInit parameters)&lt;/code&gt; which as executed on the first view model in my app was running twice. After a short debugging session it turned out that &lt;code&gt;MvxViewModel&amp;lt;TInit&amp;gt;&lt;/code&gt; &lt;code&gt;Init()&lt;/code&gt; is called from the view controllers &lt;code&gt;ViewDidLoad()&lt;/code&gt; method. Obviously there was something I was missing in terms of &lt;code&gt;ViewDidLoad()&lt;/code&gt; semantics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detecting device resolution in Xamarin apps</title>
+      <link>http://localhost:1313/blog/cross-platform-resolution-detection/</link>
+      <pubDate>Sat, 11 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cross-platform-resolution-detection/</guid>
+      <description>&lt;p&gt;Considering Xamarin there can be many reasons for need of screen resolution detection in mobile app. You may have more complex logic of loading your resources possibly split between PCL and Android/iOS projects. Other might want to send this information with REST request for reporting. Whatever your reason is, here is a very short text on how to do it in IoC-friendly way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to add padding to UILabel in Xamain.iOS</title>
+      <link>http://localhost:1313/blog/xamarin-is-uilabel-with-padding/</link>
+      <pubDate>Mon, 20 Feb 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/xamarin-is-uilabel-with-padding/</guid>
+      <description>&lt;p&gt;Working with mobile can be quite challenging for a developer with a web dev background. At least that is my experience so far. Comparing to typical HTML web elements with CSS styling some features might be missing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Short break</title>
+      <link>http://localhost:1313/blog/short-break/</link>
+      <pubDate>Mon, 20 Feb 2017 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/short-break/</guid>
+      <description>&lt;p&gt;Those of you who enter this blog from time to time probably noticed that there was not update since 4 months. I hope this will change due to my intensive learning in mobile development area.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Under the hood</title>
+      <link>http://localhost:1313/blog/under-the-hood/</link>
+      <pubDate>Thu, 18 Aug 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/under-the-hood/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s always good to have static code analysis in your build process. I guess no one these days argues with this statement. This usually forces developer to make conscious decisions on code-level performance, reliability, security, design etc. Few times CA warnings saved me from producing a quite nasty bugs. Sometimes however FxCop yields some really strange stuff.&lt;br&gt;&#xA;This post will describe the one I stuck with some time ago. But more interestingly it shows that sometimes .Net developer must look deep under the hood of high-level language abstraction to solve certain issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enterprise search - the first look</title>
+      <link>http://localhost:1313/blog/enterprise-search-basic-concepts-part-1/</link>
+      <pubDate>Thu, 23 Jun 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/enterprise-search-basic-concepts-part-1/</guid>
+      <description>&lt;p&gt;Recently leafing through my notebook (yeah, I&amp;rsquo;m still using old-time paper) I found some ideas, quick-notes, self-brainstorming diagrams related with search systems. An original idea for this blog, at least for few first posts, was to present them. Still this requires introducing some of the basics of enterprise search and search systems in general (so I could spare some time in future just referring to those). This is what this post series is about.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Editing Jekyll markdown pages in Visual Studio 2015</title>
+      <link>http://localhost:1313/blog/editing-jekyll-md-in-vs2015/</link>
+      <pubDate>Sun, 08 May 2016 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/editing-jekyll-md-in-vs2015/</guid>
+      <description>&lt;p&gt;*nix-like OSs are gaining much popularity even in .NET world since Microsoft decided to move on with their products into this direction (you can read more on &lt;a href=&#34;http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Hanselman&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;http://www.hanselman.com/blog/AnUpdateOnASPNETCore10RC2.aspx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;blog&lt;/a&gt;). Nevertheless it&amp;rsquo;s still more convenient to develop .NET apps on Windows (especially if it&amp;rsquo;s your target platform).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World! Again...</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Sat, 07 May 2016 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>&lt;p&gt;So, here it is - my second technical blog. The &lt;a href=&#34;http://byteloom.blogspot.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;first one&lt;/a&gt; died along with my frustration on SharePoint 2010 I had to work with some time ago&amp;hellip; The resignation burned out and so my willingness to describe my miserable experiences with this hopeless (at least from dev perspective) technology. It was not the best reason for sharing anything with the world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SharePoint Taxonomies - Committing large amount of data to the MMD service</title>
+      <link>http://localhost:1313/blog/sharepoint-taxonomies-commiting-large/</link>
+      <pubDate>Tue, 02 Oct 2012 11:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sharepoint-taxonomies-commiting-large/</guid>
+      <description>&lt;p&gt;Once again about the SharePoint 2010 taxonomy service.&lt;/p&gt;&#xA;&lt;p&gt;As I wrote in my previous posts, loading data into MMD service automatically can be quite a challenge. First, you must &lt;a href=&#34;http://localhost:1313/blog/sharepoint-taxonomies-labels-with&#34;&gt;remember about illegal characters in terms labels&lt;/a&gt;. Second, you must &lt;a href=&#34;http://localhost:1313/blog/sharepoint-taxonomies-struggling-with&#34;&gt;trace duplicates across sibling nodes&lt;/a&gt; in taxonomy trees. And this could not be the end of your problems especially if you plan to load some more data at one time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SharePoint Taxonomies - Struggling with duplicated default labels</title>
+      <link>http://localhost:1313/blog/sharepoint-taxonomies-struggling-with/</link>
+      <pubDate>Fri, 28 Sep 2012 09:47:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sharepoint-taxonomies-struggling-with/</guid>
+      <description>&lt;p&gt;If you have ever had to load large number of data into SharePoint MMD service or build taxonomies automatically you have likely encountered the following problem:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SharePoint Taxonomies - Labels with forbiden characters</title>
+      <link>http://localhost:1313/blog/sharepoint-taxonomies-labels-with/</link>
+      <pubDate>Thu, 20 Sep 2012 17:02:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sharepoint-taxonomies-labels-with/</guid>
+      <description>&lt;p&gt;Recently, when I was working on mechanism of automatic synchronization of tree structures provided by web service to SharePoint taxonomies, I came across an error like this:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom XmlResolver for embeded DTD</title>
+      <link>http://localhost:1313/blog/custom-xmlresolver-for-embeded-dtd/</link>
+      <pubDate>Tue, 03 Jul 2012 08:28:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/custom-xmlresolver-for-embeded-dtd/</guid>
+      <description>&lt;p&gt;Writing a component for parsing XML files with &lt;code&gt;XMLSerializer&lt;/code&gt; I had to provide DTD validation (DTD file was already created long time ago so there was no sense for creating XSD schema). The component must have been able to work in console application and web app (as a SharePoint timer job) so there was no chance to guarantee the same paths for DTD file (which was always specified in doctype directive in processed files). In such situation I&amp;rsquo;ve decided to deliver the DTD file as embedded resource in component assembly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SharePoint 2010 Batch Edit</title>
+      <link>http://localhost:1313/blog/sharepoint-2010-batch-edit/</link>
+      <pubDate>Fri, 06 Apr 2012 09:46:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/sharepoint-2010-batch-edit/</guid>
+      <description>&lt;p&gt;For the years I have developed .Net projects I&amp;rsquo;ve found many useful solutions on &lt;a href=&#34;http://www.codeplex.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;CodePlex&lt;/a&gt; repository. Some of them are only drafts of ideas but there are also many products that are ready to use on production environments. &lt;a href=&#34;http://sp2010batchedit.codeplex.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;SharePoint 2010 Batch Edit&lt;/a&gt; which worked with recently is one of this from the second category.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&#34;You cannot select more than 100 items at once&#34; in SharePoint 2010</title>
+      <link>http://localhost:1313/blog/you-cannot-select-more-than-100-items/</link>
+      <pubDate>Tue, 27 Mar 2012 15:49:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/you-cannot-select-more-than-100-items/</guid>
+      <description>&lt;p&gt;Looking for some solution for batch items update I&amp;rsquo;ve run into the following problem: when I clicked a checkbox in top right corner of the list (actually a document library) &amp;ldquo;All Items&amp;rdquo; view, the browser displayed an error: &lt;code&gt;You cannot select more than 100 items at once.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WebPagetest - distributed web profiler</title>
+      <link>http://localhost:1313/blog/webpagetest-distributed-web-profiler/</link>
+      <pubDate>Wed, 21 Mar 2012 00:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/webpagetest-distributed-web-profiler/</guid>
+      <description>&lt;p&gt;There are many popular tools for web performance profiling/debugging these days. From my personal tool set I could mention &lt;a href=&#34;http://getfirebug.com/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Firebug&lt;/a&gt;, IE Developers Toolbar (integrated with IE from version &amp;gt; 8) or &lt;a href=&#34;http://www.fiddler2.com/fiddler2/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Fiddler&lt;/a&gt;. The common problem with those tools is that they are installed and run locally on developers machine. Sometimes, for example when behaviour of the web app depends on loading all elements in the specific order or time, it is important to determine if those factors vary in different geographical locations. The download speed for China and Germany could be very different. If you face with this kind of problems I could recommend you a great distributed web performance profiler - &lt;a href=&#34;http://www.webpagetest.org/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;WebPageTest&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ingo Rammer - Hardcore .NET Production Debugging</title>
+      <link>http://localhost:1313/blog/ingo-rammer-hardcore-net-production/</link>
+      <pubDate>Wed, 21 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ingo-rammer-hardcore-net-production/</guid>
+      <description>&lt;p&gt;Have you ever had a problem with a user complaining on and on that when he clicks some button in your application his computer hangs but it works fine on any other machine where you have tested it? The web service is consuming all the available memory in completely indeterministic way? Or maybe your web application is magically crashing on production machine when it works in the same usage scenario on development and test environment? If not, you are probably in about 1% of the most luckiest developers in the world (or you are not the developer).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BLOB externalization for SharePoint - Metalogix StoragePoint</title>
+      <link>http://localhost:1313/blog/blob-externalization-for-sharepoint/</link>
+      <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/blob-externalization-for-sharepoint/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m working in a team that builds and maintains a big document management system. Since SharePoint itself is not the best option for storing large amount of files (which can be also quite large) and serving them (performance, content DB size limitations etc.) I was evaluating some options for content externalization. I will not get into much details about the reasons for using such solutions because there are many well written articles about this on the Net (like &lt;a href=&#34;http://www.simple-talk.com/content/article.aspx?article=1280&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&amp;ldquo;SharePoint 2010: Storing Documents on the File System with Remote Blob Storage&amp;rdquo;&lt;/a&gt; by Damon Armstrong). I will focus on one - &lt;a href=&#34;http://www.metalogix.com/Products/StoragePoint.aspx&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Metalogix StoragePoint&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Replace attachment in document library without changing version number</title>
+      <link>http://localhost:1313/blog/replace-attachment-in-document-library/</link>
+      <pubDate>Tue, 06 Mar 2012 01:03:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/replace-attachment-in-document-library/</guid>
+      <description>&lt;p&gt;Lately I was looking for some example on how to replace the attachment in document library (SP2010) without changing the version number but without any results. If you&amp;rsquo;ve faced the same problem here is the solution:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error: &#34;Value cannot be null. Parameter name: formType&#34; retrieving default view page of document library</title>
+      <link>http://localhost:1313/blog/error-value-cannot-be-null-parameter/</link>
+      <pubDate>Mon, 23 Jan 2012 13:58:54 +0000</pubDate>
+      <guid>http://localhost:1313/blog/error-value-cannot-be-null-parameter/</guid>
+      <description>&lt;p&gt;Few days ago I faced with the problem of linking to default view page of custom document library (for purposes of redirection with Source parameter after uploading new document and filling it&amp;rsquo;s meta data form).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom upload form for document library in SharePoint 2010 - programmatic approach</title>
+      <link>http://localhost:1313/blog/custom-upload-form-for-document-library/</link>
+      <pubDate>Fri, 20 Jan 2012 18:59:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/custom-upload-form-for-document-library/</guid>
+      <description>&lt;p&gt;As I wrote previously the one of my recent projects was to create a new upload page for specific Document Library (based on custom list template) that will use Telerik Upload component (Silverlight) and will entirely replace OOB &lt;code&gt;upload.aspx&lt;/code&gt; page. Looking for some suggestions how to do this I found few solutions but none of them met my criteria:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello world!</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Wed, 18 Jan 2012 00:58:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>&lt;p&gt;Welcome on my new blog (and also the first one).&lt;br&gt;&#xA;In few days I plan to picture some of my first experiences with development in SharePoint 2010. They are related with my current project - custom upload form with &lt;a href=&#34;http://www.telerik.com/help/silverlight/radupload-overview.html&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Telerik upload control&lt;/a&gt; (Silverlight) that will entirely replace the standard OOB upload mechanism for custom document libraries.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

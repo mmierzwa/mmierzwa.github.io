@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xamarin Forms on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/xamarin-forms/</link>
+    <description>Recent content in Xamarin Forms on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xamarin-forms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search as you type in Xamarin.Forms - the Reactive Extensions way</title>
+      <link>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms-part-2/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/search-as-you-type-in-xamarin-forms&#34;&gt;my previous post&lt;/a&gt; I showed how to introduce search as type behavior into Xamarin.Forms app with standard &lt;a href=&#34;https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Forms Behaviors&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s see how to do it in other, more declarative and configurable manner, using &lt;a href=&#34;https://github.com/dotnet/reactive&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Reactive Extensions (Rx)&lt;/a&gt; instead of &lt;code&gt;Task&lt;/code&gt; and &lt;code&gt;CancellationTokenSource&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Implementing search as type in Xamarin.Forms search bar</title>
+      <link>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;Search as type functionality is quite often seen on the web as well as in mobile apps. Let&amp;rsquo;s see how to make it work in Xamarin.Forms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to detect screen keyboard appearance changes</title>
+      <link>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</guid>
+      <description>&lt;p&gt;Detecting on-screen keyboard toggles and proper handling of such changes can be quite tricky. Android tries to deal with those events on its own but its behavior is often far from perfect. iOS, on the other hand, leaves all the work to an app developer. Both approaches have its advantages and disadvantages but sooner or later each mobile app dev will have to face this problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting tint color in Xamarin.Form image</title>
+      <link>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s mobile apps are rarely created as text-only. Most of them needs at least in-app icons for toolbars. In many cases you can find graphics for mobile platforms as ready to use resources on the Internet, i.e. &lt;a href=&#34;https://material.io/icons/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Material Design icons&lt;/a&gt;. Sometimes they are prepared by graphic designers specially for your apps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Object reference not set in Xamarin.Forms XAML compilation</title>
+      <link>http://localhost:1313/blog/object-reference-not-set-in-xamarin-forms-xaml-compilation/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/object-reference-not-set-in-xamarin-forms-xaml-compilation/</guid>
+      <description>&lt;p&gt;XAML compilation is (or at least should be) one of the default optimisation steps in Xamarin.Forms app development. It really speeds up the app especially on Android. Sometimes however it can cause some nasty errors like this one:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder text in Xamarin.Forms Editor</title>
+      <link>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</guid>
+      <description>&lt;p&gt;Standard Xamarin.Forms &lt;a href=&#34;https://developer.xamarin.com/api/type/Xamarin.Forms.Editor&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Xamarin.Forms.Editor control&lt;/a&gt; offers edit capabilities similar to &lt;code&gt;Entry&lt;/code&gt; but for multiline text. Unfortunately unlike &lt;code&gt;Entry&lt;/code&gt; it doesn&amp;rsquo;t support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let&amp;rsquo;s see how to do this on Android and iOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Badge icon notification in Xamarin.Forms ToolbarItems on iOS</title>
+      <link>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</guid>
+      <description>&lt;p&gt;Most of iPhone and iPad users can easily recognize icon badges - the pattern for application notifications typically presented in app icon or navigation bar. People that got used to this pattern might want to have the same user experience in their Xamarin Forms application. This post describes how to customize the navigation toolbar in iOS to dynamically display such elements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tappable label in Xamarin.Forms</title>
+      <link>http://localhost:1313/blog/tappable-label-in-xamarin-forms/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tappable-label-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;Adding tap/click handling to Xamarin.Forms Label is fairly easy. You can do it both in XAML or code behind using &lt;code&gt;GesureRecognizers&lt;/code&gt; collection like it is &lt;a href=&#34;https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/gestures/tap/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;described in this recipe&lt;/a&gt;. Unfortunately if you plan to use this solution intensively in your app it will add quite a lot of repeatable code for setting up those handlers (especially in XAML)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

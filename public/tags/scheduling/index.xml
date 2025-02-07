@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scheduling on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/scheduling/</link>
+    <description>Recent content in Scheduling on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sun, 16 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scheduling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scheduling in ASP.NET Core with Quartz.NET</title>
+      <link>http://localhost:1313/blog/scheduling-in-asp-net-core-with-quartz-net/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/scheduling-in-asp-net-core-with-quartz-net/</guid>
+      <description>&lt;p&gt;Running certain tasks in a scheduled manner may be an easy solution for many problems. One might be refreshing the application cache when the data needs to be fresh and warm no matter what the actual traffic is. Other could be the synchronization or periodical clean-up. There are obviously few good architectural patterns to do it in more elegant and efficient way - distributed queues, publish-subscribe models, enterprise service buses etc. But the simplicity of scheduling still might be an important decision variable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

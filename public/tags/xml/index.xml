@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xml on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/xml/</link>
+    <description>Recent content in Xml on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Tue, 03 Jul 2012 08:28:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom XmlResolver for embeded DTD</title>
+      <link>http://localhost:1313/blog/custom-xmlresolver-for-embeded-dtd/</link>
+      <pubDate>Tue, 03 Jul 2012 08:28:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/custom-xmlresolver-for-embeded-dtd/</guid>
+      <description>&lt;p&gt;Writing a component for parsing XML files with &lt;code&gt;XMLSerializer&lt;/code&gt; I had to provide DTD validation (DTD file was already created long time ago so there was no sense for creating XSD schema). The component must have been able to work in console application and web app (as a SharePoint timer job) so there was no chance to guarantee the same paths for DTD file (which was always specified in doctype directive in processed files). In such situation I&amp;rsquo;ve decided to deliver the DTD file as embedded resource in component assembly.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ios on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/tags/ios/</link>
+    <description>Recent content in Ios on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to detect screen keyboard appearance changes</title>
+      <link>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/detecting-on-screen-keyboard-toggle/</guid>
+      <description>&lt;p&gt;Detecting on-screen keyboard toggles and proper handling of such changes can be quite tricky. Android tries to deal with those events on its own but its behavior is often far from perfect. iOS, on the other hand, leaves all the work to an app developer. Both approaches have its advantages and disadvantages but sooner or later each mobile app dev will have to face this problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting tint color in Xamarin.Form image</title>
+      <link>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/setting-tint-color-in-xamarin-form-image/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s mobile apps are rarely created as text-only. Most of them needs at least in-app icons for toolbars. In many cases you can find graphics for mobile platforms as ready to use resources on the Internet, i.e. &lt;a href=&#34;https://material.io/icons/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Material Design icons&lt;/a&gt;. Sometimes they are prepared by graphic designers specially for your apps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder text in Xamarin.Forms Editor</title>
+      <link>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</link>
+      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/placeholder-text-in-xamarin-forms-editor/</guid>
+      <description>&lt;p&gt;Standard Xamarin.Forms &lt;a href=&#34;https://developer.xamarin.com/api/type/Xamarin.Forms.Editor&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Xamarin.Forms.Editor control&lt;/a&gt; offers edit capabilities similar to &lt;code&gt;Entry&lt;/code&gt; but for multiline text. Unfortunately unlike &lt;code&gt;Entry&lt;/code&gt; it doesn&amp;rsquo;t support displaying placeholder text out of the box. Implementing this functionality with custom renderers can be tricky. Let&amp;rsquo;s see how to do this on Android and iOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Badge icon notification in Xamarin.Forms ToolbarItems on iOS</title>
+      <link>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/badge-icon-notification-in-xamarin-forms-toolbaritems-on-ios/</guid>
+      <description>&lt;p&gt;Most of iPhone and iPad users can easily recognize icon badges - the pattern for application notifications typically presented in app icon or navigation bar. People that got used to this pattern might want to have the same user experience in their Xamarin Forms application. This post describes how to customize the navigation toolbar in iOS to dynamically display such elements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cleaning ADAL token cache on Android and iOS</title>
+      <link>http://localhost:1313/blog/cleaning-adal-token-cache/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cleaning-adal-token-cache/</guid>
+      <description>&lt;p&gt;Microsoft &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory Authentication Libraries&lt;/a&gt; (ADAL) is a popular set wrapper around &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Azure Active Directory&lt;/a&gt; API distributed in the form of platform and language specific components. It&amp;rsquo;s especially useful in multi-platform applications that integrate with various AD APIs such as Outlook or Graph API. It not only wraps the oAuth endpoints but automates the entire application flow for retrieving, refreshing and persisting tokens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disabled button style on iOS in Xamarin.Forms</title>
+      <link>http://localhost:1313/blog/disabled-button-style-on-ios-in-xamarin-forms/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/disabled-button-style-on-ios-in-xamarin-forms/</guid>
+      <description>&lt;p&gt;All the credits for solution described in this post goes &lt;a href=&#34;https://www.facebook.com/qbus00&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;my friend qbus&lt;/a&gt;. He saved few hours of my life and my sanity ;-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ModernHttpClient and &#39;Type HttpClientHandler defined in unreferenced assembly&#39; error</title>
+      <link>http://localhost:1313/blog/cannot-find-referenced-system-net-http-httpclienthandler/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cannot-find-referenced-system-net-http-httpclienthandler/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/paulcbetts/ModernHttpClient&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;ModernHttpClient&lt;/a&gt; is a great wrapper around native HTTP clients offered by Xamarin. It wraps &lt;code&gt;NSURLSession&lt;/code&gt; on iOS and &lt;code&gt;OkHttp&lt;/code&gt; on Android. As it deals pretty well with SSL/TLS stack (especially in uncommon scenarios) it&amp;rsquo;s often used instead of built-in types. I switched to &lt;code&gt;ModernHttpClient&lt;/code&gt; because of  weird errors on connections to the preproduction environment in Android.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to setup Ninject as the default DI container in MvvmCross?</title>
+      <link>http://localhost:1313/blog/how-to-setup-ninject-as-the-default-di-container-in-mvvmcross/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/how-to-setup-ninject-as-the-default-di-container-in-mvvmcross/</guid>
+      <description>&lt;p&gt;When you build a multi-platform application in .NET, especially for the mobile, you typically choose between two approaches. One is to code the shared UI layer commonly with Xamarin.Forms (you will still need to have some parts to be placed in platform projects, like custom renderers or providers). The second is to put the entire UI code in platform-specific projects. In this approach you can use the full power of each platform features (like fragments on Android). Both solutions allow for sharing common business logic between all the platforms. On the other hand full implementation of MVVM pattern in the second approach can be tricky and time consuming. The solution is to use 3rd party library; and here comes the MvvmCross. It covers many more areas than the pure MVVM pattern:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why ADAL does not persist user credentials on iOS simulator?</title>
+      <link>http://localhost:1313/blog/non-persistent-keychain-on-ios-simulator/</link>
+      <pubDate>Mon, 20 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/non-persistent-keychain-on-ios-simulator/</guid>
+      <description>&lt;p&gt;If you are using Azure Active Directory services you probably at least considered using &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;ADAL&lt;/a&gt; as a client library in you application. It&amp;rsquo;s easy to setup, use and it offers a unified API across the most popular platforms - iOS, Android, UWP, web - both .Net and native. Unfortunately sometimes things just does not work out of the box without deeper understanding how some features are implemented. This post is about one of them - credentials cache persistency on iOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why does MVVMCross view model initialize twice on iOS?</title>
+      <link>http://localhost:1313/blog/why-mvvmcross-vm-init-twice-on-ios/</link>
+      <pubDate>Thu, 16 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/why-mvvmcross-vm-init-twice-on-ios/</guid>
+      <description>&lt;p&gt;Working on a bug fix in MVVMCross-based mobile application I noticed a strange behavior. The navigation to other view model I put in &lt;code&gt;async Init&amp;lt;TInit&amp;gt;(TInit parameters)&lt;/code&gt; which as executed on the first view model in my app was running twice. After a short debugging session it turned out that &lt;code&gt;MvxViewModel&amp;lt;TInit&amp;gt;&lt;/code&gt; &lt;code&gt;Init()&lt;/code&gt; is called from the view controllers &lt;code&gt;ViewDidLoad()&lt;/code&gt; method. Obviously there was something I was missing in terms of &lt;code&gt;ViewDidLoad()&lt;/code&gt; semantics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detecting device resolution in Xamarin apps</title>
+      <link>http://localhost:1313/blog/cross-platform-resolution-detection/</link>
+      <pubDate>Sat, 11 Mar 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cross-platform-resolution-detection/</guid>
+      <description>&lt;p&gt;Considering Xamarin there can be many reasons for need of screen resolution detection in mobile app. You may have more complex logic of loading your resources possibly split between PCL and Android/iOS projects. Other might want to send this information with REST request for reporting. Whatever your reason is, here is a very short text on how to do it in IoC-friendly way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to add padding to UILabel in Xamain.iOS</title>
+      <link>http://localhost:1313/blog/xamarin-is-uilabel-with-padding/</link>
+      <pubDate>Mon, 20 Feb 2017 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/xamarin-is-uilabel-with-padding/</guid>
+      <description>&lt;p&gt;Working with mobile can be quite challenging for a developer with a web dev background. At least that is my experience so far. Comparing to typical HTML web elements with CSS styling some features might be missing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
