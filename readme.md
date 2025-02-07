@@ -1,4 +1,4 @@
-[![deployed](https://github.com/mmierzwa/mmierzwa.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mmierzwa/mmierzwa.github.io/actions/workflows/pages/pages-build-deployment)
+[![github pages](https://github.com/mmierzwa/mmierzwa.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mmierzwa/mmierzwa.github.io/actions/workflows/gh-pages.yml)
 
 # Introduction
 
