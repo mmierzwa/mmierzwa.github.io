@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on byteloom - Marek Mierzwa</title>
+    <link>http://localhost:1313/categories/testing/</link>
+    <description>Recent content in Testing on byteloom - Marek Mierzwa</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copy, _right?_ :thinking_face:</copyright>
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do we still need testing pyramid?</title>
+      <link>http://localhost:1313/blog/do-we-still-need-testing-pyramid/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/do-we-still-need-testing-pyramid/</guid>
+      <description>&lt;p&gt;This text will be rather reflective than instructional, which can be surprising compared to other articles on this blog. However after almost 7 years without any new text, this shouldn&amp;rsquo;t be any shock, even if you - somehow - managed to follow me here ;-)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -3,21 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
       <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2018-06-23T00:00:00+00:00</lastmod>
+            <lastmod>2025-02-08T00:00:00+00:00</lastmod>
           </url>
     
   
     
   
+    
+      <url>
+            <loc>http://localhost:1313/blog/do-we-still-need-testing-pyramid/</loc>
+            <lastmod>2025-02-08T00:00:00+00:00</lastmod>
+          </url>
     
   
     
       <url>
             <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2018-06-23T00:00:00+00:00</lastmod>
+            <lastmod>2025-02-08T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -25,8 +40,6 @@
             <loc>http://localhost:1313/blog/search-as-you-type-in-xamarin-forms-part-2/</loc>
             <lastmod>2018-06-23T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
@@ -101,8 +114,6 @@
             <loc>http://localhost:1313/blog/mocking-http-response-in-simple-odata-client/</loc>
             <lastmod>2017-08-22T00:00:00+00:00</lastmod>
           </url>
-    
-  
     
   
     
