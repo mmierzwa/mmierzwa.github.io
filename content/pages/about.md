@@ -11,7 +11,7 @@ Hi! My name is Marek Mierzwa. Who I am?
 
 Beside of that, I love good food, enjoy the world and people 🥰 I like traveling and exploring (physically, mentally, spiritually), learning and trying new stuff.
 
-My hobbies? DIY projects (various types), electronics, astronomy/astronautics, coding (not only for living), tabletop RPGs, retro computing, puzzles, psychology, Lego and much more than I can think of right now. Some of those topics will show on this blog for sure.
+My hobbies? DIY projects (various types), HAM radio (my callsign is [SP9GO](https://www.qrz.com/db/sp9go)) electronics, astronomy/astronautics, coding (not only for living), tabletop RPGs, retro computing, puzzles, psychology, Lego and much more than I can think of right now. Some of those topics will show on this blog for sure.
 
 If you want to read more on my professional info, [my LinkedIn profile](https://www.linkedin.com/in/marekmierzwa/) is the place to go. 
 
