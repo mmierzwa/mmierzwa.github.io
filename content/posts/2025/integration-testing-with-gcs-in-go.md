@@ -178,4 +178,4 @@ And that's more or less all. I typically prepare also some test helpers for clea
 
 I hope this will help you somehow in building your testable and a bit more maintainable application in Go that uses GCS.
 
-Happy coding!
+Happy coding! 
