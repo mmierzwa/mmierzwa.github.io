@@ -15,7 +15,7 @@ googleAnalytics = "G-Y6JG3PC3SH"
   pagerSize = 10
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "JSON", "RSS"]
 
 [permalinks]
   pages = "/:slug/"
