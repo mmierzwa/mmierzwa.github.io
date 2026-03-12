@@ -2,4 +2,4 @@ module github.com/mmierzwa/mmierzwa.github.io
 
 go 1.20
 
-require github.com/jpanther/congo/v2 v2.10.0 // indirect
+require github.com/jpanther/congo/v2 v2.13.0 // indirect
