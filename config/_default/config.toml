@@ -19,8 +19,11 @@ googleAnalytics = "G-Y6JG3PC3SH"
 
 [permalinks]
   pages = "/:slug/"
-  posts = "/blog/:filename"
+  posts = "/blog/:contentbasename"
 
 [privacy]
   [privacy.googleAnalytics]
+    disabled = true
     respectDoNotTrack = true
+    anonymizeIP = true
+    useSessionStorage = true
