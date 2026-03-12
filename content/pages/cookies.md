@@ -1,10 +1,16 @@
 ---
-title: "cookies policy"
+title: "tracking & cookies policy"
 slug: "cookies"
 ---
 
+## Opt-out from tracking
+
+This page uses web analytics tools to help author understand better what content is interesting for the audience. The author, however, have a great respect for your privacy and understands that you may not wish to be tracked. 
+
 <div id="matomo-opt-out"></div>
 <script src="https://stats.marek-mierzwa.com/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=en&showIntro=1"></script>
+
+In addition, if your browser supports "Do not track" functionality, it's also respected. Please, see your browser's documentation for the details on how to turn this on ([like for Google Chrome](https://support.google.com/chrome/answer/2790761?hl=en)).
 
 ## What Are Cookies
 
