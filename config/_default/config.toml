@@ -9,7 +9,6 @@ enableRobotsTXT = true
 summaryLength = 20
 
 disqusShortname = "bytel00mbloggithubpages"
-googleAnalytics = "G-Y6JG3PC3SH"
 
 [pagination]
   pagerSize = 10
@@ -20,10 +19,3 @@ googleAnalytics = "G-Y6JG3PC3SH"
 [permalinks]
   pages = "/:slug/"
   posts = "/blog/:contentbasename"
-
-[privacy]
-  [privacy.googleAnalytics]
-    disabled = true
-    respectDoNotTrack = true
-    anonymizeIP = true
-    useSessionStorage = true
