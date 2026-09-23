@@ -8,7 +8,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 20
 
-disqusShortname = "bytel00mbloggithubpages"
+[services.disqus]
+  shortname = "bytel00mbloggithubpages"
 
 [pagination]
   pagerSize = 10
